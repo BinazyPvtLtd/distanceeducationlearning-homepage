@@ -16,8 +16,6 @@ const SPY_SECTIONS = [
   { id: "courses", href: "/#courses", label: "Courses" },
   { id: "universities", href: "/#universities", label: "Universities" },
   { id: "about", href: "/#about", label: "About Us" },
-  // Lives in the footer, which renders on every page, so no "/" prefix needed.
-  { id: "contact", href: "#contact", label: "Contact" },
 ];
 
 const NAV_LINKS = [{ href: "/", label: "Home" }, ...SPY_SECTIONS];

@@ -18,6 +18,7 @@ const UNIVERSITY_LOGOS: LogoEntry[] = [
   { match: "JAIN", name: "JAIN (Deemed-to-be University)", loc: "Bengaluru, Karnataka", logo: "/assets/img/jain-logo.webp" },
   { match: "Chandigarh University", name: "Chandigarh University", loc: "Mohali, Punjab", logo: "/assets/img/chandigarh-logo.webp" },
   { match: "Sharda", name: "Sharda University", loc: "Greater Noida, Uttar Pradesh", logo: "/assets/img/sharda-logo.webp" },
+   { match: "Shoolini", name: "Shoolini University", loc: "Mandi, Himachal Pradesh", logo: "/assets/img/shoolini-logo.webp" },
 ];
 
 const revealCls =

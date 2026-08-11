@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* ================= STATS ================= */}
       <section className="bg-[linear-gradient(90deg,#1877F2_0%,#0F5FD0_100%)]">
-        <div className="mx-auto grid max-w-[1180px] grid-cols-4 gap-5 px-6 py-[26px] text-white max-[980px]:grid-cols-2 max-[980px]:gap-[22px] max-[620px]:grid-cols-1">
+        <div className="mx-auto grid max-w-[1180px] grid-cols-4 gap-5 px-6 py-[26px] text-white max-[980px]:grid-cols-2 max-[980px]:gap-[22px] ">
           <div className="flex items-center justify-center gap-[14px]">
             <svg className="h-[34px] w-[34px] flex-none stroke-white fill-none [stroke-width:1.6]" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 6.5a3 3 0 010 5.6M18 20c0-2.5-1-4.5-2.6-5.6"/></svg>
             <div>
@@ -127,10 +127,10 @@ export default function Home() {
       </section> */}
 
       {/* ================= ABOUT ================= */}
-      <section className="px-6 pb-[72px] max-[620px]:pb-[52px]" id="about">
+      <section className="p-6 pb-[72px] max-[620px]:pb-[52px] bg-navy text-white/72 " id="about">
         <div className="mx-auto max-w-[1180px]">
           <div>
-            <h2 className="mb-4 text-[30px] max-[620px]:text-2xl text-center">About Distance Education Learning</h2>
+            <h2 className="mb-4 text-[30px] text-white max-[620px]:text-2xl text-center">About Distance Education Learning</h2>
 
             <p className="text-[15px] text-center"> Distance Education Learning is India's trusted platform dedicated to simplifying higher education for students and working professionals. We help learners find the right online and distance degree programs from recognised, UGC-DEB approved universities — without the confusion of scattered information or misleading claims.</p>
 
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* ================= TESTIMONIALS ================= */}
-      <section className="px-6 pb-[72px] max-[620px]:pb-[52px]">
+      <section className="py-6 pb-[72px] max-[620px]:pb-[52px]">
         <div className="mx-auto max-w-[1180px]">
           <div className={`reveal ${sectionHead} ${revealCls}`}>
             <h2 className="mb-2 text-[30px] max-[620px]:text-2xl">What Our Learners Say</h2>
