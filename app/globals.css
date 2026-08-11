@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue: #1877F2;
+  --color-blue-strong: #0B63D6;
+  --color-navy: #0A2A5E;
+  --color-ink: #12203A;
+  --color-body: #5A6A85;
+  --color-line: #E4EBF6;
+  --color-tint: #EEF4FE;
+  --color-page: #F7FAFF;
+  --color-star: #FFB020;
+  --color-green: #15A05B;
+  --color-red: #E0293E;
+  --color-purple: #7C3AED;
+  --color-purple-strong: #6D28D9;
+
+  --radius-brand: 14px;
+
+  --shadow-brand: 0 6px 24px rgba(16, 44, 92, .08);
+  --shadow-brand-lg: 0 14px 40px rgba(16, 44, 92, .14);
+
+  --font-poppins: var(--font-poppins);
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Sticky header is 76px tall; leave room so anchor-scrolled sections
+       don't land underneath it. */
+    scroll-padding-top: 96px;
+  }
+
+  body {
+    font-family: var(--font-poppins), -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    color: var(--color-ink);
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-blue);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
