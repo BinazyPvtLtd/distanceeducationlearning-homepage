@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.distanceeducationlearning.com/",
   },
+
+  verification: {
+    google: "yMVa7f3jsnOyx1OgypjOO-8ceU-Yjng_gJiNSliSWU8",
+  },
+
   openGraph: {
     title: "Distance Education Learning | UGC-DEB Approved Online Degrees",
     description:
