@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { UNIVERSITIES } from "@/lib/data";
 
 type LogoEntry = { match: string; name: string; loc: string; logo: string };
@@ -47,8 +48,10 @@ export default function UniStrip() {
         >
           {/* University Logo */}
           <div className="mb-3 flex h-[58px] w-full items-center justify-center">
-            <img
+            <Image
               src={logo}
+              width={130}
+              height={52}
               alt={`${name} logo`}
               className="max-h-[52px] max-w-[130px] object-contain"
               loading="lazy"

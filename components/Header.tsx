@@ -15,10 +15,14 @@ import { useLeadModal } from "./LeadModalContext";
 const SPY_SECTIONS = [
   { id: "courses", href: "/#courses", label: "Courses" },
   { id: "universities", href: "/#universities", label: "Universities" },
-  { id: "about", href: "/#about", label: "About Us" },
 ];
 
-const NAV_LINKS = [{ href: "/", label: "Home" }, ...SPY_SECTIONS];
+const NAV_LINKS = [
+  { href: "/", label: "Home" },
+  ...SPY_SECTIONS,
+  { href: "/about-us", label: "About Us" },
+  { href: "/contact-us", label: "Contact Us" },
+];
 
 // Header is 76px tall; trigger once a spied section clears it, and treat the
 // bottom 70% of the viewport as "not yet in view" so the switch happens near the top.
@@ -31,9 +35,9 @@ export default function Header() {
   const { openLeadModal } = useLeadModal();
 
   useEffect(() => {
-    const elements = SPY_SECTIONS.map((s) => document.getElementById(s.id)).filter(
-      (el): el is HTMLElement => el !== null
-    );
+    const elements = SPY_SECTIONS.map((s) =>
+      document.getElementById(s.id),
+    ).filter((el): el is HTMLElement => el !== null);
     if (!elements.length) return;
 
     const intersecting = new Set<string>();
@@ -43,10 +47,13 @@ export default function Header() {
           if (entry.isIntersecting) intersecting.add(entry.target.id);
           else intersecting.delete(entry.target.id);
         }
-        const active = SPY_SECTIONS.map((s) => s.id).filter((id) => intersecting.has(id)).pop() ?? null;
+        const active =
+          SPY_SECTIONS.map((s) => s.id)
+            .filter((id) => intersecting.has(id))
+            .pop() ?? null;
         setActiveSection(active);
       },
-      { rootMargin: SCROLLSPY_ROOT_MARGIN }
+      { rootMargin: SCROLLSPY_ROOT_MARGIN },
     );
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
@@ -56,7 +63,14 @@ export default function Header() {
     <header className="sticky top-0 z-[60] border-b border-[rgba(228,235,246,0.9)] bg-[rgba(247,250,255,0.94)] backdrop-blur-[10px]">
       <div className="mx-auto flex h-[76px] max-w-[1180px] items-center justify-between gap-6 px-6 max-[980px]:gap-[10px]">
         <Link href="/" aria-label="Distance Education Learning home">
-          <Image src={logoColor} alt="Distance Education Learning" width={200} height={42} priority className="h-[42px] w-auto" />
+          <Image
+            src={logoColor}
+            alt="Distance Education Learning"
+            width={200}
+            height={42}
+            priority
+            className="h-[42px] w-auto"
+          />
         </Link>
         <nav
           className={`flex items-center gap-[30px] text-sm font-medium text-ink max-[980px]:fixed max-[980px]:inset-x-0 max-[980px]:top-[76px] max-[980px]:flex-col max-[980px]:items-start max-[980px]:gap-0 max-[980px]:border-b max-[980px]:border-line max-[980px]:bg-white max-[980px]:px-6 max-[980px]:pt-2 max-[980px]:pb-5 max-[980px]:shadow-[0_6px_24px_rgba(16,44,92,0.08)]${open ? "" : " max-[980px]:hidden"}`}
@@ -64,11 +78,13 @@ export default function Header() {
           aria-label="Main"
           onClick={(e) => {
             if ((e.target as HTMLElement).tagName === "A") setOpen(false);
-          }}
-        >
+          }}>
           {NAV_LINKS.map((link) => {
             const spySection = SPY_SECTIONS.find((s) => s.href === link.href);
-            const active = spySection ? activeSection === spySection.id : link.href === pathname && activeSection === null;
+            const active = spySection
+              ? pathname === "/" && activeSection === spySection.id
+              : link.href === pathname &&
+                (pathname !== "/" || activeSection === null);
             return (
               <Link
                 key={link.href}
@@ -76,8 +92,7 @@ export default function Header() {
                 aria-current={active ? "page" : undefined}
                 className={`relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-blue after:transition-[width] after:duration-[220ms] after:ease-in-out after:content-[''] hover:text-blue hover:after:w-full max-[980px]:w-full max-[980px]:py-3 ${
                   active ? "text-blue font-semibold after:w-full" : "after:w-0"
-                }`}
-              >
+                }`}>
                 {link.label}
               </Link>
             );
@@ -87,8 +102,7 @@ export default function Header() {
           <button
             type="button"
             className={`${btnPrimary} ${btnSm}`}
-            onClick={() => openLeadModal()}
-          >
+            onClick={() => openLeadModal()}>
             Enroll Now
           </button>
           <button
@@ -97,8 +111,7 @@ export default function Header() {
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             aria-controls="navLinks"
-            onClick={() => setOpen((v) => !v)}
-          >
+            onClick={() => setOpen((v) => !v)}>
             <span className="my-[5px] block h-0.5 w-[22px] rounded-sm bg-ink"></span>
             <span className="my-[5px] block h-0.5 w-[22px] rounded-sm bg-ink"></span>
             <span className="my-[5px] block h-0.5 w-[22px] rounded-sm bg-ink"></span>

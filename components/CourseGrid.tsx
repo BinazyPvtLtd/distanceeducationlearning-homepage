@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect } from "react";
 import { observeReveals } from "@/lib/reveal";
 import { btnPrimary, btnSm } from "@/lib/styles";
@@ -147,8 +148,10 @@ export default function CourseGrid() {
           <div className="relative">
             {/* Professional Course Image */}
             <div className="relative aspect-video overflow-hidden bg-navy">
-              <img
+              <Image
                 src={course.img}
+                fill
+                sizes="(max-width: 620px) calc(100vw - 48px), (max-width: 980px) calc((100vw - 74px) / 2), (max-width: 1180px) calc((100vw - 100px) / 3), 360px"
                 alt={`${course.university} ${course.title}`}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
                 loading="lazy"
@@ -160,8 +163,10 @@ export default function CourseGrid() {
 
             {/* University Logo */}
             <div className="absolute bottom-[-36px] left-[20px] flex h-[72px] min-w-[145px] items-center justify-center rounded-xl border border-line bg-white  shadow-lg">
-              <img
+              <Image
                 src={course.logo}
+                width={145}
+                height={72}
                 alt={`${course.university} logo`}
                 className="w-full h-full object-contain"
               />

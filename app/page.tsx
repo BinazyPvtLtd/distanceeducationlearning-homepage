@@ -132,13 +132,13 @@ export default function Home() {
           <div>
             <h2 className="mb-4 text-[30px] text-white max-[620px]:text-2xl text-center">About Distance Education Learning</h2>
 
-            <p className="text-[15px] text-center"> Distance Education Learning is India's trusted platform dedicated to simplifying higher education for students and working professionals. We help learners find the right online and distance degree programs from recognised, UGC-DEB approved universities — without the confusion of scattered information or misleading claims.</p>
+            <p className="text-[15px] text-center"> Distance Education Learning is India&apos;s trusted platform dedicated to simplifying higher education for students and working professionals. We help learners find the right online and distance degree programs from recognised, UGC-DEB approved universities — without the confusion of scattered information or misleading claims.</p>
 
-            <p className="text-[15px] text-center">Over time, we've built a reputation as a reliable guide for thousands of learners across India. Our focus is on working professionals who want to advance their education without pausing their careers or personal responsibilities. From university comparisons and eligibility checks to personalised counselling and transparent fee guidance, we make every step of the journey clear and stress-free.</p>
+            <p className="text-[15px] text-center">Over time, we&apos;ve built a reputation as a reliable guide for thousands of learners across India. Our focus is on working professionals who want to advance their education without pausing their careers or personal responsibilities. From university comparisons and eligibility checks to personalised counselling and transparent fee guidance, we make every step of the journey clear and stress-free.</p>
 
             <p className="text-[15px] text-center">
-               Our vision is simple: education should be accessible, credible, and built around the learner's real life — not the other way around. We don't just recommend degree programs; we take the time to understand your goals and guide you toward a choice that genuinely fits your career path.
-               We're not just helping you enrol. We're helping you grow.
+               Our vision is simple: education should be accessible, credible, and built around the learner&apos;s real life — not the other way around. We don&apos;t just recommend degree programs; we take the time to understand your goals and guide you toward a choice that genuinely fits your career path.
+               We&apos;re not just helping you enrol. We&apos;re helping you grow.
             </p>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default function Home() {
           </summary>
 
           <div className="px-5 pb-5 text-[13px] leading-[1.7] text-body">
-            Yes, upon successful completion, you'll receive an official degree
+            Yes, upon successful completion, you&apos;ll receive an official degree
             from the recognised, UGC-DEB approved university — carrying the
             same validity and recognition as regular mode degrees.
           </div>
@@ -300,8 +300,8 @@ export default function Home() {
           </summary>
 
           <div className="px-5 pb-5 text-[13px] leading-[1.7] text-body">
-            We verify every university's UGC-DEB approval status before listing
-            it on our platform, so you can be confident you're choosing a
+            We verify every university&apos;s UGC-DEB approval status before listing
+            it on our platform, so you can be confident you&apos;re choosing a
             recognised and credible degree program.
           </div>
         </details>
