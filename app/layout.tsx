@@ -60,6 +60,24 @@ const jsonLd = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E2RFZ4XZY6"
+        />
+        <script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E2RFZ4XZY6');
+            `,
+          }}
+        />
+      </head>
       <body className="bg-page text-body leading-[1.65]">
         <script
           type="application/ld+json"
