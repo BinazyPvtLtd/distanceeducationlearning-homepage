@@ -126,7 +126,7 @@ export default async function BlogArticlePage({ params }: Props) {
         }}
       />
       <section className="bg-[linear-gradient(135deg,#1e3a8a,#2563eb_60%,#0ea5e9)] text-white">
-        <div className="mx-auto max-w-[1080px] px-6 py-10 sm:py-12">
+        <div className="mx-auto max-w-270 px-6 py-10 sm:py-12">
           <nav
             aria-label="Breadcrumb"
             className="mb-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-white/85 sm:text-sm">
@@ -146,20 +146,20 @@ export default async function BlogArticlePage({ params }: Props) {
               {formatBlogDate(BLOG_UPDATED_AT)}
             </time>
           </span>
-          <h1 className="mt-4 mb-4 max-w-[820px] text-[30px] leading-tight text-white sm:text-[40px]">
+          <h1 className="mt-4 mb-4 max-w-205 text-[30px] leading-tight text-white sm:text-[40px]">
             {post.title}
           </h1>
-          <p className="max-w-[760px] text-sm leading-relaxed text-white/90 sm:text-base">
+          <p className="max-w-190 text-sm leading-relaxed text-white/90 sm:text-base">
             {post.description}
           </p>
         
         </div>
       </section>
-      <div className="mx-auto grid max-w-[1080px] grid-cols-1 gap-10 px-6 py-10 min-[900px]:grid-cols-[230px_minmax(0,1fr)]">
+      <div className="mx-auto grid max-w-270 grid-cols-1 gap-10 px-6 py-10 min-[900px]:grid-cols-[230px_minmax(0,1fr)]">
         <aside className="hidden min-[900px]:block">
           <nav
             aria-label="Table of contents"
-            className="sticky top-[100px] max-h-[calc(100dvh-125px)] overflow-y-auto pr-3 text-[13px] leading-relaxed">
+            className="sticky top-25 max-h-[calc(100dvh-125px)] overflow-y-auto pr-3 text-[13px] leading-relaxed">
             <p className="mb-3 font-semibold text-ink">On this page</p>
             {content.toc.map((item) => (
               <a
