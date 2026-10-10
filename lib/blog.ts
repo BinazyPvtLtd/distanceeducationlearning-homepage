@@ -75,7 +75,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "madras-university-distance-education-mba",
     title: "Madras University Distance Education MBA: Fees & Admission",
-    metaTitle: "University of Madras Distance MBA 2026: Fees & Admission Process",
+    metaTitle:
+      "University of Madras Distance MBA 2026: Fees & Admission Process",
     description:
       "Explore Madras University distance MBA admission, eligibility, fees, specializations, syllabus, study material, and examination guidance.",
     category: "Admissions",
