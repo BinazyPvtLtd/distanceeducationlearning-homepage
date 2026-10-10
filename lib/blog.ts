@@ -1,3 +1,8 @@
+import ignouAssignmentImage from "@/public/assets/ignou-assignment-front-page.webp";
+import ignouIdCardImage from "@/public/assets/ignou-id-card.webp";
+import madrasMbaImage from "@/public/assets/madras-university-distance-mba.webp";
+import abcIdCardImage from "@/public/assets/abc-id-card.webp";
+
 export const BLOG_SITE_URL = "https://www.distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-08";
 
@@ -37,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     bannerTitle: "IGNOU Assignment Front Page",
     gradient: "from-[#1e3a8a] to-[#2563eb]",
     image: {
-      src: "/assets/IGNOU Assignment Front Page PDF Download & Format Guide.webp",
+      src: ignouAssignmentImage.src,
       alt: "IGNOU assignment front-page PDF download and format guide",
     },
     quickAnswer:
@@ -57,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     bannerTitle: "Download Your IGNOU ID Card",
     gradient: "from-[#065f46] to-[#10b981]",
     image: {
-      src: "/assets/How to Download IGNOU ID Card Online.webp",
+      src: ignouIdCardImage.src,
       alt: "Guide to downloading an IGNOU student ID card online",
     },
     quickAnswer:
@@ -70,14 +75,14 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "madras-university-distance-education-mba",
     title: "Madras University Distance Education MBA: Fees & Admission",
-    metaTitle: "Madras University Distance Education MBA: Fees & Admission",
+    metaTitle: "University of Madras Distance MBA 2026: Fees & Admission Process",
     description:
       "Explore Madras University distance MBA admission, eligibility, fees, specializations, syllabus, study material, and examination guidance.",
     category: "Admissions",
     bannerTitle: "Madras University Distance MBA",
     gradient: "from-[#7c2d12] to-[#f97316]",
     image: {
-      src: "/assets/Madras University Distance Education MBA Fees & Admission (2).webp",
+      src: madrasMbaImage.src,
       alt: "Madras University distance education MBA fees and admission guide",
     },
     quickAnswer:
@@ -97,7 +102,7 @@ export const blogPosts: BlogPost[] = [
     bannerTitle: "Your Guide to ABC ID",
     gradient: "from-[#4c1d95] to-[#8b5cf6]",
     image: {
-      src: "/assets/What Is ABC ID Card Benefits, Registration & Download.webp",
+      src: abcIdCardImage.src,
       alt: "ABC ID card benefits, registration and download guide",
     },
     quickAnswer:

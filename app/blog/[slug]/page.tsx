@@ -145,10 +145,6 @@ export default async function BlogArticlePage({ params }: Props) {
             <time dateTime={BLOG_UPDATED_AT}>
               {formatBlogDate(BLOG_UPDATED_AT)}
             </time>
-            <span aria-hidden="true" className="mx-2">
-              ·
-            </span>
-            {content.readingMinutes} min read
           </span>
           <h1 className="mt-4 mb-4 max-w-[820px] text-[30px] leading-tight text-white sm:text-[40px]">
             {post.title}
@@ -156,9 +152,7 @@ export default async function BlogArticlePage({ params }: Props) {
           <p className="max-w-[760px] text-sm leading-relaxed text-white/90 sm:text-base">
             {post.description}
           </p>
-          <p className="mt-4 text-xs text-white/80">
-            By Distance Education Learning Editorial Team
-          </p>
+        
         </div>
       </section>
       <div className="mx-auto grid max-w-[1080px] grid-cols-1 gap-10 px-6 py-10 min-[900px]:grid-cols-[230px_minmax(0,1fr)]">

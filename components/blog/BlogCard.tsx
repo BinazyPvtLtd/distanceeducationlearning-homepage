@@ -2,7 +2,7 @@ import Link from "next/link";
 import { BLOG_UPDATED_AT, formatBlogDate, type BlogPost } from "@/lib/blog";
 import BlogBanner from "./BlogBanner";
 
-export type BlogCardPost = BlogPost & { readingMinutes: number };
+export type BlogCardPost = BlogPost;
 
 export default function BlogCard({ post }: { post: BlogCardPost }) {
   return (
@@ -22,11 +22,10 @@ export default function BlogCard({ post }: { post: BlogCardPost }) {
           </Link>
         </h3>
         <p className="flex-1 text-sm leading-relaxed">{post.description}</p>
-        <time dateTime={BLOG_UPDATED_AT} className="text-xs">
-          {formatBlogDate(BLOG_UPDATED_AT)}
-        </time>
         <div className="mt-2 flex items-center justify-between border-t border-line pt-4 text-xs">
-          <span>{post.readingMinutes} min read</span>
+          <time dateTime={BLOG_UPDATED_AT}>
+            {formatBlogDate(BLOG_UPDATED_AT)}
+          </time>
           <Link
             href={`/blog/${post.slug}`}
             className="font-semibold text-blue-strong"

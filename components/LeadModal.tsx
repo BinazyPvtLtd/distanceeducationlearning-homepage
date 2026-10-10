@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import type { LeadCourse } from "@/lib/data";
 import LeadForm from "./LeadForm";
 
@@ -10,16 +10,37 @@ type Props = {
 };
 
 export default function LeadModal({ presetCourse, onClose }: Props) {
+  const dialogRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
+    const previouslyFocused = document.activeElement instanceof HTMLElement
+      ? document.activeElement
+      : null;
+    dialogRef.current?.focus();
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
+      if (e.key === "Tab") {
+        const focusable = dialogRef.current?.querySelectorAll<HTMLElement>(
+          'button:not(:disabled), a[href], input:not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex="0"]',
+        );
+        if (!focusable?.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && (document.activeElement === first || document.activeElement === dialogRef.current)) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && (document.activeElement === last || document.activeElement === dialogRef.current)) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", onKeyDown);
+      if (previouslyFocused?.isConnected) previouslyFocused.focus();
     };
   }, [onClose]);
 
@@ -32,6 +53,8 @@ export default function LeadModal({ presetCourse, onClose }: Props) {
     >
       <div
         role="dialog"
+        ref={dialogRef}
+        tabIndex={-1}
         aria-modal="true"
         aria-labelledby="lead-modal-heading"
         className="relative max-h-[90vh] w-full max-w-[500px] overflow-y-auto rounded-2xl border-2 border-purple bg-white p-6 shadow-[0_20px_60px_rgba(124,58,237,0.35)] sm:p-8"

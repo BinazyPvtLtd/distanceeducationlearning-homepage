@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import BlogGrid from "@/components/blog/BlogGrid";
 import BlogCta from "@/components/blog/BlogCta";
 import { blogPosts, blogUrl, BLOG_SITE_URL } from "@/lib/blog";
-import { getBlogContent } from "@/lib/blogContent";
 
 const title = "Blogs | Distance Education Learning";
 const description =
@@ -15,13 +14,8 @@ export const metadata: Metadata = {
   openGraph: { title, description, type: "website", url: blogUrl() },
 };
 
-export default async function BlogsPage() {
-  const posts = await Promise.all(
-    blogPosts.map(async (post) => ({
-      ...post,
-      readingMinutes: (await getBlogContent(post.slug)).readingMinutes,
-    })),
-  );
+export default function BlogsPage() {
+  const posts = blogPosts;
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
