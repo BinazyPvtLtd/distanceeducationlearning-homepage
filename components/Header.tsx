@@ -20,6 +20,7 @@ const SPY_SECTIONS = [
 const NAV_LINKS = [
   { href: "/", label: "Home" },
   ...SPY_SECTIONS,
+  { href: "/blog", label: "Blogs" },
   { href: "/about-us", label: "About Us" },
   { href: "/contact-us", label: "Contact Us" },
 ];
@@ -83,7 +84,7 @@ export default function Header() {
             const spySection = SPY_SECTIONS.find((s) => s.href === link.href);
             const active = spySection
               ? pathname === "/" && activeSection === spySection.id
-              : link.href === pathname &&
+              : (link.href === pathname || (link.href === "/blog" && pathname.startsWith("/blog/"))) &&
                 (pathname !== "/" || activeSection === null);
             return (
               <Link
