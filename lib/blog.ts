@@ -19,6 +19,7 @@ export type BlogPost = {
   slug: string;
   title: string;
   metaTitle: string;
+  keywords: string[];
   description: string;
   category: string;
   bannerTitle: string;
@@ -34,6 +35,22 @@ export const blogContact = { whatsappNumber: "919217310430" };
 export const blogPosts: BlogPost[] = [
   {
     slug: "ignou-assignment-front-page-pdf",
+    keywords: [
+      "ignou assignment paper format",
+      "ignou assignment front page",
+      "ignou front page download",
+      "ignou front page pdf",
+      "ignou assignment front page filled",
+      "assignment first page in hindi",
+      "assignment front page format in hindi",
+      "assignment front page in hindi",
+      "ignou front page",
+      "ignou project cover page",
+      "ignou assignment front page fill up",
+      "ignou assignment first page",
+      "ignou assignment file cover",
+      "ignou assignment cover",
+    ],
     title: "IGNOU Assignment Front Page PDF: Download & Format Guide",
     metaTitle: "IGNOU Assignment Front Page PDF: Download & Format",
     description:
@@ -54,6 +71,25 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-download-ignou-id-card",
+    keywords: [
+      "ignou identity card download",
+      "ignou id card",
+      "ignou identity card download link",
+      "ignou student id card",
+      "ignou id card download with enrollment no",
+      "id card ignou",
+      "id card download ignou",
+      "ignou student id card download",
+      "download ignou id card",
+      "ignou id card login",
+      "ignou download id card",
+      "ignou student id",
+      "ignou identity card",
+      "id card ignou download",
+      "how to download id card of ignou",
+      "ignou login id",
+      "how to get ignou id card",
+    ],
     title: "How to Download IGNOU ID Card Online",
     metaTitle: "IGNOU Identity Card Download 2026: Step-by-Step Guide",
     description:
@@ -74,6 +110,22 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "madras-university-distance-education-mba",
+    keywords: [
+      "madras university distance education",
+      "madras university dde",
+      "madras university mba admission 2024",
+      "madras university distance education admission 2021",
+      "institute of distance education",
+      "madras university distance education prospectus",
+      "ideoum",
+      "madras university mba admission",
+      "madras university correspondence courses",
+      "madras university distance education subject code",
+      "ideunom study material",
+      "madras university online courses",
+      "madras university online mba",
+      "university of madras mba fees",
+    ],
     title: "Madras University Distance Education MBA: Fees & Admission",
     metaTitle:
       "University of Madras Distance MBA 2026: Fees & Admission Process",
@@ -95,6 +147,25 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "what-is-abc-id-card",
+    keywords: [
+      "what is abc id",
+      "identity value in abc card",
+      "abc id full form",
+      "abc id in cuet form",
+      "abc government",
+      "abs id",
+      "abc is",
+      "identity value in abc card meaning",
+      "abc code",
+      "abc id meaning",
+      "abc number",
+      "abc id number",
+      "abc id means",
+      "what is abc id in cuet",
+      "abc i",
+      "identity value in abc id",
+      "what is abc code",
+    ],
     title: "What Is ABC ID Card? Benefits, Registration & Download",
     metaTitle: "What Is ABC ID? Benefits, Registration & Download Guide",
     description:
