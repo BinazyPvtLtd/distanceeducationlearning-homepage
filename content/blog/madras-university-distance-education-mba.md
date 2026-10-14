@@ -4,6 +4,8 @@ The Institute of Distance Education (IDE) at the University of Madras administer
 
 ## **Madras University Distance Education MBA – Overview**
 
+If you searched for “madras university dde” or “ideoum”, use the Institute of Distance Education links on the official University of Madras website to find the relevant programme and student services.
+
 The following table summarises the basic structure of **Madras University distance education** MBA as outlined in the programme wireframe.
 
 | Particular | Details |
@@ -44,6 +46,8 @@ Past searches like "Madras University MBA admission 2024" and "Madras University
 
 ## **Madras University Distance Education MBA Fees**
 
+When comparing University of Madras MBA fees, check that the fee schedule applies to the distance MBA and your admission batch, including any separately payable examination or registration charges.
+
 The cost of taking an MBA course at Madras University, through the distance learning mode, comprises of cost of the course, registration/application fee, exam fee, and other charges. The current official website of IDE states that it has collected the first year tuition fee of the A26 batch online, but it doesn’t show the complete break up of fee of the MBA program on its landing page, and therefore students should refer the latest official MBA prospectus, or the official fee notification and not rely on the 3rd party figures.
 
 | Fee Component | Amount |
@@ -66,6 +70,8 @@ The syllabus structure of the MBA distance education courses of Madras Universit
 Students searching for Madras University Distance Education subject code may find the proper code by comparing with the updated syllabus, exam notification or study material and not rely on the old subject-code list.
 
 ## **Madras University Distance Education Study Material**
+
+For IDEUNOM study material, use the official IDE study-material section and select resources that match your programme, subjects and admission batch.
 
 Madras University's distance education provides online study materials through IDE and some materials for admission batches A25 and C26 on their current website. The system also provides online PCP information and students can access their schedules and related academic information through the IDE website.
 

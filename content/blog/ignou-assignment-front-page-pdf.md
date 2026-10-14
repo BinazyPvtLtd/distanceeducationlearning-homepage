@@ -14,7 +14,7 @@ You can download a blank reference template before writing or attaching your ass
 
 ### **IGNOU Assignment Front Page Filled Sample**
 
-The front page of an IGNOU assignment should have the student’s name and enrollment number, the programme and programme code, course code and course title, the study centre, session, submission date and signature. A filled sample is useful in determining the placement of various details on the IGNOU assignment front page fill-up.
+The front page of an IGNOU assignment should have the student’s name and enrollment number, the programme and programme code, course code and course title, the study centre, session, submission date and signature. A filled sample can help with the IGNOU assignment front page fill up process by showing where each detail belongs.
 
 ## **What Is the IGNOU Assignment Paper Format?**
 
@@ -100,6 +100,8 @@ This example should be formatted according to the reference; students should fil
 Students can use the assignment first page or the assignment front page in Hindi, if permitted, when submitting assignments in Hindi. Other information in the formats, if any, remains the same. Field labels are in Hindi in these formats.
 
 ### **Assignment First Page in Hindi: Required Details**
+
+The assignment front page format in Hindi should include the same student and course information as the English version, using the Hindi field labels below where permitted.
 
 | English | Hindi |
 | ----- | ----- |

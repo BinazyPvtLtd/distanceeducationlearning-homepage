@@ -28,6 +28,8 @@ The ABC card registration form shows fields for identity type and identity value
 
 ### **Identity Value in ABC Card Meaning**
 
+The identity value in ABC ID registration should correspond to the identity type selected in the form. Follow your institution's instructions for the roll, registration or enrollment number to enter.
+
 The value of the identity in an ABC card means the value associated with the identity type filled in in the registration form. Students are expected to fill in the identity type specified by their school and provide the corresponding value rather than filling in their ABC ID.
 
 ## **What Is ABC Code?**
@@ -111,6 +113,8 @@ Although the two terms can appear together on a form, they serve different funct
 The phrase **abc government** is commonly used by students searching for the official ABC platform. ABC is a government-backed academic-credit initiative established by the Ministry of Education and UGC, while APAAR is a Ministry of Education initiative integrated with ABC and implemented through Digital India Corporation. However, an ABC ID should not be described as a conventional government identity card such as a separate citizenship or physical identification document.
 
 ## **Common Problems While Creating or Downloading ABC ID**
+
+If you searched for “abs id” or “abc i” while looking for an academic identity, check whether you meant ABC ID. This guide explains ABC ID and its connection with academic credits; those search spellings should not be treated as separate identity services.
 
 Common problems include Aadhaar or ID verification, name mismatches, mobile number issues, duplicate accounts, academic information, inability to download cards, ABC IDs not appearing on applications, and other issues. Most of these are a result of differences in the student’s academic records and digital records.
 

@@ -47,6 +47,8 @@ IGNOU has posted a URL on its Samarth Student Portal where students can download
 
 ## **IGNOU ID Card Download with Enrollment Number**
 
+If you searched for “ignou id card download with enrollment no”, keep your enrollment details ready, but use the Student Portal login process rather than expecting the number alone to unlock your card.
+
 This tutorial explains how to obtain an ID card from Indira Gandhi National Open University (IGNOU) by using your registration number.The basic and the most common way of retrieving an IGNOU ID card is opening the student account by using the registration number or any other user ID & Password. However, the right way to download an ID card is to open Student Portal, not a general download page.
 
 ### **Details Required for IGNOU ID Card Download**
@@ -102,11 +104,15 @@ Before anything else, cross-check whether the credentials that were entered are 
 
 ## **IGNOU Student ID Card Download for Existing Students**
 
+For an IGNOU download ID card request, existing students should sign in to their Student Portal account and check the Student I-card section.
+
 Students are able to retrieve their Student ID cards repeatedly through the Student portal for as long as they remain enrolled. This facility is also available to students who are moving to a new year/semester and also to students who had lost the card earlier.
 
 You can request a download of your IGNOU identification card, and you can also download the student identification card yourself, once you ascertain that your IGNOU identification card is available online.
 
 ## **What to Do If You Cannot Download IGNOU ID Card?**
+
+Searches such as “id card ignou” and “id card ignou download” refer to the student identity card service covered here. If you are wondering how to download ID card of IGNOU after an unsuccessful attempt, check the issues below before trying again through the official portal.
 
 Issues downloading an IGNOU identity card could be due to incomplete admission updates, incorrect details, malfunctioning of portal, and absence of student details.
 
