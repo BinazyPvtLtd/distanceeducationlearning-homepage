@@ -33,7 +33,7 @@ export default function Home() {
           <div className="relative flex items-center items-end justify-center ">
             <iframe
               className="relative z-10 aspect-video rounded-[18px] border-0 shadow-brand-lg"
-              src="https://www.youtube.com/embed/asD7ZnOjWms?si=wLIVCgz_x6M94juO"
+              src="https://www.youtube.com/embed/dNUqc-OLi-s"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* ================= TESTIMONIALS ================= */}
-      <section className="py-6 pb-[72px] max-[620px]:pb-[52px]">
+      <section className="py-6 pb-[72px] max-[1180px]:px-6 max-[620px]:pb-[52px]">
         <div className="mx-auto max-w-[1180px]">
           <div className={`reveal ${sectionHead} ${revealCls}`}>
             <h2 className="mb-2 text-[30px] max-[620px]:text-2xl">What Our Learners Say</h2>
@@ -184,7 +184,7 @@ export default function Home() {
       </section>
 
       {/* ================= FAQ ================= */}
-    <section id="faq" className="py-[70px]">
+    <section id="faq" className="py-[70px] max-[1180px]:px-6">
       {/* FAQ Heading */}
       <div className={`reveal mx-auto mb-[34px] max-w-none text-left ${revealCls}`}>
                 <h2 className="mb-2 text-center text-[26px]">FAQs</h2>

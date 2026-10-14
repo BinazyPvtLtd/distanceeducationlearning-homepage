@@ -264,7 +264,7 @@ export default function Footer() {
               </svg>
               <a
                 className={linkHover}
-                href="mailto:info@distanceeducationlearningcom">
+                href="mailto:info@distanceeducationlearning.com">
                 info@distanceeducationlearning.com
               </a>
             </li>
