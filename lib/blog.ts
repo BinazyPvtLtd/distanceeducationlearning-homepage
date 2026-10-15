@@ -3,7 +3,7 @@ import ignouIdCardImage from "@/public/assets/ignou-id-card.webp";
 import madrasMbaImage from "@/public/assets/madras-university-distance-mba.webp";
 import abcIdCardImage from "@/public/assets/abc-id-card.webp";
 
-export const BLOG_SITE_URL = "https://www.distanceeducationlearning.com";
+export const BLOG_SITE_URL = "https://distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-14";
 
 export function formatBlogDate(date: string) {

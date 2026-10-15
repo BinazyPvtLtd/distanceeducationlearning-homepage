@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read the Terms and Conditions governing your use of the Distance Education Learning counselling platform.",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/terms-and-conditions",
+    canonical: "https://distanceeducationlearning.com/terms-and-conditions",
   },
 };
 

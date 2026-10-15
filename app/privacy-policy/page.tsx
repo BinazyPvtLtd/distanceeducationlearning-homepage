@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read the Privacy Policy for Distance Education Learning, covering how we collect, use, and protect your personal data.",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/privacy-policy",
+    canonical: "https://distanceeducationlearning.com/privacy-policy",
   },
 };
 

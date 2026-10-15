@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact Us | Distance Education Learning",
   description: "Contact Distance Education Learning for free counselling and guidance on online and distance degree programmes.",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/contact-us",
+    canonical: "https://distanceeducationlearning.com/contact-us",
   },
 };
 

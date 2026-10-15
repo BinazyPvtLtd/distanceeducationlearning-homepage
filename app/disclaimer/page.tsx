@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read the Disclaimer for Distance Education Learning, an independent educational counselling platform for UGC-DEB approved online and distance degree programs.",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/disclaimer",
+    canonical: "https://distanceeducationlearning.com/disclaimer",
   },
 };
 
