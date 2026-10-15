@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us | Distance Education Learning",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/about-us",
+    canonical: "https://distanceeducationlearning.com/about-us",
   },
 };
 

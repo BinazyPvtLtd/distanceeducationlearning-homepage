@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Compare UGC-DEB approved online degrees & MBA courses from India's top universities like Amity, Manipal, LPU & NMIMS. Free counselling, transparent fees.",
   alternates: {
-    canonical: "https://www.distanceeducationlearning.com/",
+    canonical: "https://distanceeducationlearning.com",
   },
 
   verification: {
