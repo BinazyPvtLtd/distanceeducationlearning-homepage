@@ -48,9 +48,12 @@ async function collectPagePaths(
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const pagePaths = await collectPagePaths(path.join(process.cwd(), "app"));
-  const pages: MetadataRoute.Sitemap = pagePaths.map((pathname) => ({
-    url: `${BLOG_SITE_URL}${pathname === "/" ? "" : pathname}`,
-  }));
+  // Confirmation pages are intentionally noindex and should not be submitted.
+  const pages: MetadataRoute.Sitemap = pagePaths
+    .filter((pathname) => pathname !== "/thank-you")
+    .map((pathname) => ({
+      url: `${BLOG_SITE_URL}${pathname === "/" ? "" : pathname}`,
+    }));
   const articles: MetadataRoute.Sitemap = blogPosts.map(({ slug }) => ({
     url: blogUrl(slug),
     lastModified: BLOG_UPDATED_AT,

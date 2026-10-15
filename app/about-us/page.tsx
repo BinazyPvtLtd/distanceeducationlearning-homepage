@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Distance Education Learning",
+  title: "About Distance Education School | Online & Distance Learning",
   alternates: {
     canonical: "https://distanceeducationlearning.com/about-us",
   },
@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 
 export default function AboutUsPage() {
   return (
-    <section className="mx-auto min-h-[50vh] max-w-[1180px] px-6 py-16 text-center max-[620px]:py-10">
+    <section className="mx-auto min-h-[50vh] max-w-295 px-6 py-16 text-center max-[620px]:py-10">
       <h1 className="mb-6 text-[36px] max-[620px]:text-[28px]">About Distance Education Learning</h1>
-      <div className="mx-auto max-w-[820px] space-y-5 rounded-brand border border-line bg-white p-6 text-[15px] leading-relaxed shadow-brand sm:p-8">
+      <div className="mx-auto max-w-205 space-y-5 rounded-brand border border-line bg-white p-6 text-[15px] leading-relaxed shadow-brand sm:p-8">
         <p>
           {"Distance Education Learning is India's trusted platform dedicated to simplifying higher education for students and working professionals. We help learners find the right online and distance degree programs from recognised, UGC-DEB approved universities — without the confusion of scattered information or misleading claims."}
         </p>

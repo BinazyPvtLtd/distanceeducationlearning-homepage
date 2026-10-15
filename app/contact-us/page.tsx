@@ -39,7 +39,7 @@ const socialLinks = [
 
 export default function ContactUsPage() {
   return (
-    <section className="mx-auto max-w-[1180px] px-6 py-12 sm:py-16">
+    <section className="mx-auto max-w-295 px-6 py-12 sm:py-16">
       <h1 className="mb-10 text-center text-[36px] max-[620px]:text-[28px]">Contact Us</h1>
       <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-12">
         <div className="min-w-0 rounded-3xl bg-white p-6 shadow-brand sm:p-8 lg:p-10">

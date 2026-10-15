@@ -3,7 +3,7 @@ import BlogGrid from "@/components/blog/BlogGrid";
 import BlogCta from "@/components/blog/BlogCta";
 import { blogPosts, blogUrl, BLOG_SITE_URL } from "@/lib/blog";
 
-const title = "Blogs | Distance Education Learning";
+const title = "Online Learning Blogs | Distance Education Courses & Universities";
 const description =
   "Explore guides on distance education, university admissions, IGNOU assignments, student ID cards, and Academic Bank of Credits.";
 
@@ -52,7 +52,7 @@ export default function BlogsPage() {
         }}
       />
       <BlogGrid posts={posts} />
-      <div className="mx-auto max-w-[1080px] px-6 pb-12">
+      <div className="mx-auto max-w-270 px-6 pb-12">
         <BlogCta />
       </div>
     </>

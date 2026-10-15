@@ -16,6 +16,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  robots: {
+    index: true,
+    follow: true,
+  },
   title: "Distance Education Learning | UGC-DEB Approved Online Degrees",
   description:
     "Compare UGC-DEB approved online degrees & MBA courses from India's top universities like Amity, Manipal, LPU & NMIMS. Free counselling, transparent fees.",
@@ -89,7 +93,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <a
-          className="absolute -left-[9999px] top-0 z-[200] rounded-br-lg bg-white px-4 py-2.5 focus:left-0"
+          className="absolute left-[9999px] top-0 z-200 rounded-br-lg bg-white px-4 py-2.5 focus:left-0"
           href="#main"
         >
           Skip to content
@@ -98,7 +102,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Header />
           <main id="main">{children}</main>
           <section className="overflow-hidden bg-[linear-gradient(120deg,#0A2A5E_0%,#123B84_100%)] text-white">
-            <div className="mx-auto flex max-w-[1180px] items-center justify-between gap-[30px] px-6 py-11 max-[980px]:flex-col max-[980px]:text-center">
+            <div className="mx-auto flex max-w-295 items-center justify-between gap-7.5 px-6 py-11 max-[980px]:flex-col max-[980px]:text-center">
               <div>
                 <h2 className="mb-1.5 text-[26px] text-white">Ready to Build a Better Tomorrow?</h2>
                 <p className="text-sm text-white/82">Join thousands of learners and take the next step in your journey.</p>
