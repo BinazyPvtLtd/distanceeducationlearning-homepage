@@ -16,7 +16,7 @@ const COURSES = [
   {
     title: "Master of Business Administration",
     university: "Amity University Online",
-    img: "https://images.pexels.com/photos/36766687/pexels-photo-36766687.jpeg",
+    img: "/assets/courses/36766687.webp",
     logo: "/assets/img/amity-logo.webp",
     description:
       "UGC-DEB-entitled, NAAC A+ accredited, and QS-ranked online MBA offering 12+ specializations with real-world case studies and an AI certification add-on.",
@@ -28,7 +28,7 @@ const COURSES = [
   {
     title: "Master of Business Administration",
     university: "Manipal University Online (MUJ / MAHE / SMU)",
-    img: "https://images.pexels.com/photos/9301305/pexels-photo-9301305.jpeg",
+    img: "/assets/courses/9301305.webp",
     logo: "/assets/img/manipal-logo.webp",
     description:
       "UGC-DEB entitled program across three Manipal campuses with no entrance exam, weekend live classes, and strong industry hiring tie-ups.",
@@ -40,7 +40,7 @@ const COURSES = [
   {
     title: "Master of Business Administration",
     university: "Lovely Professional University (LPU) Online",
-    img: "https://images.pexels.com/photos/6476264/pexels-photo-6476264.jpeg",
+    img: "/assets/courses/6476264.webp",
     logo: "/assets/img/lpu-logo.webp",
     description:
       "UGC-DEB and AICTE approved, NAAC A++ accredited MBA with 9+ specializations and WES recognition for global equivalency.",
@@ -52,7 +52,7 @@ const COURSES = [
   {
     title: "Master of Business Administration",
     university: "Vivekananda Global University (VGU) Online",
-    img: "https://images.pexels.com/photos/8199160/pexels-photo-8199160.jpeg",
+    img: "/assets/courses/8199160.webp",
     logo: "/assets/img/vgu-logo.webp",
     description:
       "NAAC A+ accredited, UGC-recognized MBA with 8 industry-specific specializations including Agribusiness and Healthcare Management.",
@@ -64,7 +64,7 @@ const COURSES = [
   {
     title: "Master of Business Administration (Online MBA)",
     university: "NMIMS Online (CDOE)",
-    img: "https://images.pexels.com/photos/7163395/pexels-photo-7163395.jpeg",
+    img: "/assets/courses/7163395.webp",
     logo: "/assets/img/nmims-logo.webp",
     description:
       "UGC-DEB approved, NAAC A++ (Category I) MBA from a top-ranked B-school with semester-wise on-campus Connect+ immersions.",
@@ -76,7 +76,7 @@ const COURSES = [
   {
     title: "Master of Business Administration (Online MBA)",
     university: "UPES Online",
-    img: "https://images.pexels.com/photos/7693683/pexels-photo-7693683.jpeg",
+    img: "/assets/courses/7693683.webp",
     logo: "/assets/img/upes-logo.webp",
     description:
       "UGC-DEB, AICTE and NBA approved MBA with 11+ specializations including niche options like Oil & Gas and Power Management.",
@@ -88,7 +88,7 @@ const COURSES = [
   {
     title: "Master of Business Administration (Online MBA)",
     university: "JAIN (Deemed-to-be University) Online",
-    img: "https://images.pexels.com/photos/7988215/pexels-photo-7988215.jpeg",
+    img: "/assets/courses/7988215.webp",
     logo: "/assets/img/jain-logo.webp",
     description:
       "UGC-DEB, AICTE approved, NAAC A++ accredited MBA offering 20+ specializations including International Finance (ACCA-aligned).",
@@ -100,7 +100,7 @@ const COURSES = [
   {
     title: "Master of Business Administration (Online MBA)",
     university: "Chandigarh University Online",
-    img: "https://images.pexels.com/photos/8133870/pexels-photo-8133870.jpeg",
+    img: "/assets/courses/8133870.webp",
     logo: "/assets/img/chandigarh-logo.webp",
     description:
       "UGC-DEB entitled, NAAC A+ MBA with dual-specialization options and add-on certifications from PwC, PMI, and Harvard Business Publishing.",
@@ -112,7 +112,7 @@ const COURSES = [
   {
     title: "Master of Business Administration (Online MBA)",
     university: "Sharda University Online",
-    img: "https://images.pexels.com/photos/17558054/pexels-photo-17558054.jpeg",
+    img: "/assets/courses/17558054.webp",
     logo: "/assets/img/sharda-logo.webp",
     description:
       "UGC-DEB, NBA approved, NAAC A+ MBA offering specializations like Finance, HR, Healthcare, and Data Science.",
