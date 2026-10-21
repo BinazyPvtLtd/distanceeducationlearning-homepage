@@ -54,9 +54,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .map((pathname) => ({
       url: `${BLOG_SITE_URL}${pathname === "/" ? "" : pathname}`,
     }));
-  const articles: MetadataRoute.Sitemap = blogPosts.map(({ slug }) => ({
+  const articles: MetadataRoute.Sitemap = blogPosts.map(({ slug, updatedAt }) => ({
     url: blogUrl(slug),
-    lastModified: BLOG_UPDATED_AT,
+    lastModified: updatedAt ?? BLOG_UPDATED_AT,
   }));
 
   return Array.from(

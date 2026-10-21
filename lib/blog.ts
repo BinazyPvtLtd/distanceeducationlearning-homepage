@@ -2,6 +2,7 @@ import ignouAssignmentImage from "@/public/assets/ignou-assignment-front-page.we
 import ignouIdCardImage from "@/public/assets/ignou-id-card.webp";
 import madrasMbaImage from "@/public/assets/madras-university-distance-mba.webp";
 import abcIdCardImage from "@/public/assets/abc-id-card.webp";
+import ignouMarksheetImage from "@/public/assets/ignou-marksheet.webp";
 
 export const BLOG_SITE_URL = "https://distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-14";
@@ -27,12 +28,43 @@ export type BlogPost = {
   quickAnswer: string;
   source: { label: string; href: string };
   image?: { src: string; alt: string };
+  publishedAt?: string;
+  updatedAt?: string;
 };
 
 // Use the full international number (country code included, digits only).
 export const blogContact = { whatsappNumber: "919217310430" };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-to-download-ignou-marksheet",
+    title: "How to Download IGNOU Marksheet Online 2026",
+    metaTitle: "IGNOU Marksheet Download 2026: Online Guide & Status",
+    description:
+      "Learn how to check IGNOU results, save your online grade card, and enquire about final marksheet status and dispatch in 2026.",
+    keywords: [
+      "ignou marksheet download 2026", "ignou marksheet download",
+      "ignou marksheet dispatch status", "ignou marksheet download guide 2026",
+      "term result december 2026", "ignou alumni", "grade card ignou 2026",
+      "ignou final marksheet", "ignou marksheet status", "ignou marksheet",
+      "marksheet ignou", "download ignou marksheet",
+    ],
+    category: "Student Guides",
+    bannerTitle: "IGNOU Marksheet & Grade Card",
+    gradient: "from-[#164e63] to-[#0891b2]",
+    image: {
+      src: ignouMarksheetImage.src,
+      alt: "How to download IGNOU marksheet online",
+    },
+    publishedAt: "2026-10-21",
+    updatedAt: "2026-10-21",
+    quickAnswer:
+      "Use IGNOU's official grade-card service to check your course marks and save or print the available record. The online grade card does not automatically replace the original final marksheet. For a pending original, confirm programme completion and contact IGNOU about processing or dispatch.",
+    source: {
+      label: "IGNOU Grade Card Portal",
+      href: "https://gradecard.ignou.ac.in/",
+    },
+  },
   {
     slug: "ignou-assignment-front-page-pdf",
     keywords: [

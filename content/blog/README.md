@@ -1,6 +1,6 @@
 # Blog content
 
-The four articles are imported from the supplied Google Docs. Their matching
+The articles are imported from the supplied Google Docs. Their matching
 SEO outlines are retained under `sources/` for reference and are not rendered.
 
 ## Updating a guide
@@ -18,6 +18,8 @@ SEO outlines are retained under `sources/` for reference and are not rendered.
 - `BLOG_UPDATED_AT` records the site content import/edit date, not a date
   on which university notices were independently verified. Update it when
   the articles are edited, and verify time-sensitive information before launch.
+- New posts can set `publishedAt` and `updatedAt` in `lib/blog.ts` so their
+  dates and sitemap entries do not change the dates of existing guides.
 
 The blank assignment PDF under `public/downloads/` is an independent reference
 template, not an official IGNOU form or a guarantee that every study centre
@@ -31,7 +33,10 @@ accepts the format.
 | IGNOU ID card | 1CJbvYFxG6Jn2wmshsBGEbmQYPWijlhFSM7apqpxo5WA | 1latRGj0Fs_gFM2tww1U5kAJ9yM57jkhLNTca7BWZxT8 |
 | Madras MBA | 16keAo2bP0hGGrWmrkMOelcSMoUcQgbLbnVFdy0EnxK8 | 1GOAZztJ_UHU4lPUiRw1IUA7cFG-1dl4u6OgzCysWINk |
 | ABC ID | 1p62v6OlYcnCS9eiuIj1TFUe2y-8Ra4QA7EmILxUpNbo | 18ymgvOqRP9rLlhv73jLGexX3a8kcO7zwsaQkFuAIUd0 |
+| IGNOU marksheet | 1fknaa7naITqV0uuZ0VBzjqxREdnkvIcmWMwn4aYCdyo | 1xG79VZ6QvOQBLrdWjkRsZx_VqVdOSXuM1TTXeP-IbEQ |
 
 Open each document at `https://docs.google.com/document/d/<ID>/edit`.
 Unrelated text in the MBA and ABC FAQs and a broken IDE reference have been
 removed. An external tracking parameter has also been removed.
+The marksheet guide removes a contradictory December 2026 exam date and
+clarifies that saving an online grade card does not replace the original marksheet.

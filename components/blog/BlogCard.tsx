@@ -23,8 +23,8 @@ export default function BlogCard({ post }: { post: BlogCardPost }) {
         </h3>
         <p className="flex-1 text-sm leading-relaxed">{post.description}</p>
         <div className="mt-2 flex items-center justify-between border-t border-line pt-4 text-xs">
-          <time dateTime={BLOG_UPDATED_AT}>
-            {formatBlogDate(BLOG_UPDATED_AT)}
+          <time dateTime={post.updatedAt ?? BLOG_UPDATED_AT}>
+            {formatBlogDate(post.updatedAt ?? BLOG_UPDATED_AT)}
           </time>
           <Link
             href={`/blog/${post.slug}`}

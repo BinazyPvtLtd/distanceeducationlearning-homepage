@@ -43,7 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.description,
       type: "article",
       url: blogUrl(slug),
-      modifiedTime: BLOG_UPDATED_AT,
+      publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt ?? BLOG_UPDATED_AT,
       images,
     },
     twitter: {
@@ -68,7 +69,8 @@ export default async function BlogArticlePage({ params }: Props) {
         "@type": "Article",
         headline: post.title,
         description: post.description,
-        dateModified: BLOG_UPDATED_AT,
+        datePublished: post.publishedAt,
+        dateModified: post.updatedAt ?? BLOG_UPDATED_AT,
         author: {
           "@type": "Organization",
           name: "Distance Education Learning Editorial Team",
@@ -143,8 +145,8 @@ export default async function BlogArticlePage({ params }: Props) {
           </nav>
           <span className="inline-block rounded-full bg-white/15 px-3 py-1 text-xs">
             Updated{" "}
-            <time dateTime={BLOG_UPDATED_AT}>
-              {formatBlogDate(BLOG_UPDATED_AT)}
+            <time dateTime={post.updatedAt ?? BLOG_UPDATED_AT}>
+              {formatBlogDate(post.updatedAt ?? BLOG_UPDATED_AT)}
             </time>
           </span>
           <h1 className="mt-4 mb-4 max-w-205 text-[30px] leading-tight text-white sm:text-[40px]">
