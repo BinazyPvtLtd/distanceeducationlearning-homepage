@@ -32,7 +32,7 @@ Learners who want to download the 2026 IGNOU marksheet should follow these instr
 
 ### Step 1: Visit the IGNOU Official Website
 
-Visit the [official IGNOU website](https://www.ignou.ac.in/) and go to the section for exam results or grade cards. Rely on the university’s own student services instead of unknown sites that claim to provide academic documents.
+Visit the official IGNOU website and go to the section for exam results or grade cards. Rely on the university’s own student services instead of unknown sites that claim to provide academic documents.
 
 ### Step 2: Open the Result or Grade Card Section
 
@@ -112,8 +112,8 @@ If students want to download the IGNOU Marksheet 2026, they may find the markshe
 
 ### Steps to Check IGNOU Grade Card
 
-1. Visit the [official IGNOU website](https://www.ignou.ac.in/).
-2. Open the [Grade Card portal](https://gradecard.ignou.ac.in/).
+1. Visit the official IGNOU website
+2. Open the Grade Card portal
 3. Select the relevant programme.
 4. Enter the enrollment number.
 5. Submit the details.

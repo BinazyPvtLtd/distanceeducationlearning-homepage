@@ -43,7 +43,7 @@ Save the IGNOU ID card file to your phone or computer, then print it out wheneve
 
 IGNOU has posted a URL on its Samarth Student Portal where students can download their I‑cards. Students need to use the official IGNOU website, rather than other unknown third party websites to complete the Id card download Ignou process.
 
-[IGNOU Student Portal for ID Card Download](https://ignou.samarth.edu.in/)
+IGNOU Student Portal for ID Card Download
 
 ## **IGNOU ID Card Download with Enrollment Number**
 
