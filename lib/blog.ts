@@ -2,7 +2,10 @@ import ignouAssignmentImage from "@/public/assets/ignou-assignment-front-page.we
 import ignouIdCardImage from "@/public/assets/ignou-id-card.webp";
 import madrasMbaImage from "@/public/assets/madras-university-distance-mba.webp";
 import abcIdCardImage from "@/public/assets/abc-id-card.webp";
-import ignouMarksheetImage from "@/public/assets/ignou-marksheet.webp";
+import ignouMarksheetImage from "@/public/assets/How to Download IGNOU Marksheet Online.webp";
+import aocRecruitmentImage from "@/public/assets/AOC Recruitment 2026 Notification, Eligibility and Apply Online.webp";
+import gujcetResultImage from "@/public/assets/GUJCET Result 2026 Check Result and  Scorecar.webp";
+import amityStudentLoginImage from "@/public/assets/img/amity-logo.webp";
 
 export const BLOG_SITE_URL = "https://distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-14";
@@ -37,17 +40,136 @@ export const blogContact = { whatsappNumber: "919217310430" };
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "aoc-recruitment",
+    title: "AOC Recruitment 2026: Notification, Eligibility & Apply Online",
+    metaTitle: "AOC Recruitment 2026: Eligibility, Vacancy & Apply Online",
+    description:
+      "Explore AOC Recruitment 2026 notification checks, eligibility, application steps, salary references and selection guidance.",
+    category: "Recruitment",
+    bannerTitle: "AOC Recruitment 2026",
+    image: {
+      src: aocRecruitmentImage.src,
+      alt: "AOC Recruitment 2026 notification, eligibility and application guide",
+    },
+    gradient: "from-[#14532d] to-[#4d7c0f]",
+    quickAnswer:
+      "Check the official Army Ordnance Corps recruitment portal for the current advertisement before applying. The supplied source does not verify a 2026 notification, vacancy total or application deadline; earlier recruitment details are historical references.",
+    source: {
+      label: "Army Ordnance Corps Recruitment",
+      href: "https://www.aocrecruitment.gov.in/",
+    },
+    keywords: [
+      "aoc recruitment 2026 apply online",
+      "aoc apply online",
+      "aoc army recruitment 2026",
+      "aoc vacancy 2026",
+      "indian army aoc recruitment 2026",
+      "aoc recruitment eligibility",
+      "aoc recruitment gov in login",
+      "aoc army salary",
+      "aoc army vacancy 2026",
+      "army ordnance corps recruitment 2026 apply online",
+      "www aocrecruitment gov in",
+      "aoc recruitment 2026 last date",
+      "army aoc vacancy 2026",
+      "aoc new vacancy 2026",
+    ],
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+  },
+  {
+    slug: "gujcet-result",
+    title: "GUJCET Result 2026: Check Result & Scorecard",
+    metaTitle: "GUJCET Result 2026: Date, Link, Scorecard & Steps",
+    description:
+      "Learn how to check GUJCET Result 2026, save your scorecard, understand marks and percentile, and prepare for counselling.",
+    category: "Results",
+    bannerTitle: "GUJCET Result & Scorecard",
+    image: {
+      src: gujcetResultImage.src,
+      alt: "GUJCET Result 2026 and scorecard guide",
+    },
+    gradient: "from-[#1e3a8a] to-[#0891b2]",
+    quickAnswer:
+      "Start from the official GSEB website and select the relevant GUJCET result notice. Enter the credentials requested by the result portal, verify your details and save the scorecard. Follow the separate admission authority schedule for counselling.",
+    source: {
+      label: "Gujarat Secondary and Higher Secondary Education Board",
+      href: "https://www.gseb.org/",
+    },
+    keywords: [
+      "gujcet result 2026",
+      "gujcet result 2026 date",
+      "gujcet result date 2026",
+      "gseb org gujcet result",
+      "gujcet results",
+      "gujcet 2026 result date",
+      "gujcet 2026 result",
+      "gujcet result 2026 link",
+      "gseb.org gujcet result 2026",
+      "gseb gujcet result 2026",
+    ],
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+  },
+  {
+    slug: "amity-university-student-login",
+    title: "Amity University Student Login: Registration & Login Guide",
+    metaTitle: "Amity Online Student Login: Registration & Login Guide",
+    description:
+      "Learn how to access Amity Online Student Login, activate your account, reset your password and resolve common student portal problems.",
+    category: "Student Guides",
+    bannerTitle: "Amity University Student Login",
+    image: {
+      src: amityStudentLoginImage.src,
+      alt: "Amity University logo for the student login guide",
+    },
+    gradient: "from-[#312e81] to-[#7c3aed]",
+    quickAnswer:
+      "Visit the official Amity Online website and choose the student portal for your programme. Sign in with your registered credentials after account activation. Use the official password recovery or student support options if you cannot access your account.",
+    source: {
+      label: "Amity Online",
+      href: "https://amityonline.com/",
+    },
+    keywords: [
+      "amity online student login",
+      "amity university login",
+      "amityonline student login",
+      "amity university student login",
+      "amity student login",
+      "amity university online login",
+      "amity student zone login",
+      "amity student portal",
+      "amity university online student login",
+      "amityonline.com student login",
+      "login amity online",
+      "amity university student login online",
+      "amity login student",
+      "student portal amity online",
+      "amity online student portal",
+      "amity student login portal",
+    ],
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
+  },
+  {
     slug: "how-to-download-ignou-marksheet",
     title: "How to Download IGNOU Marksheet Online 2026",
     metaTitle: "IGNOU Marksheet Download 2026: Online Guide & Status",
     description:
       "Learn how to check IGNOU results, save your online grade card, and enquire about final marksheet status and dispatch in 2026.",
     keywords: [
-      "ignou marksheet download 2026", "ignou marksheet download",
-      "ignou marksheet dispatch status", "ignou marksheet download guide 2026",
-      "term result december 2026", "ignou alumni", "grade card ignou 2026",
-      "ignou final marksheet", "ignou marksheet status", "ignou marksheet",
-      "marksheet ignou", "download ignou marksheet",
+      "ignou marksheet download 2026",
+      "ignou marksheet download",
+      "ignou marksheet dispatch status",
+      "ignou marksheet download guide 2026",
+      "term result december 2026",
+      "ignou alumni",
+      "grade card ignou 2026",
+      "ignou final marksheet",
+      "ignou marksheet status",
+      "ignou marksheet",
+      "marksheet ignou",
+      "download ignou marksheet",
     ],
     category: "Student Guides",
     bannerTitle: "IGNOU Marksheet & Grade Card",

@@ -93,7 +93,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <a
-          className="absolute left-[9999px] top-0 z-200 rounded-br-lg bg-white px-4 py-2.5 focus:left-0"
+          className="sr-only rounded-br-lg bg-white focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-200 focus:px-4 focus:py-2.5"
           href="#main"
         >
           Skip to content

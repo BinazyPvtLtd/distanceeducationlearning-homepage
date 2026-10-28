@@ -34,8 +34,16 @@ accepts the format.
 | Madras MBA | 16keAo2bP0hGGrWmrkMOelcSMoUcQgbLbnVFdy0EnxK8 | 1GOAZztJ_UHU4lPUiRw1IUA7cFG-1dl4u6OgzCysWINk |
 | ABC ID | 1p62v6OlYcnCS9eiuIj1TFUe2y-8Ra4QA7EmILxUpNbo | 18ymgvOqRP9rLlhv73jLGexX3a8kcO7zwsaQkFuAIUd0 |
 | IGNOU marksheet | 1fknaa7naITqV0uuZ0VBzjqxREdnkvIcmWMwn4aYCdyo | 1xG79VZ6QvOQBLrdWjkRsZx_VqVdOSXuM1TTXeP-IbEQ |
+| AOC recruitment | 1-Ag4HJ3bn9slcUeurT4APoWQMGxhoYbEo4ca3tmwqlg | 1D-vX9fmEb5nXkIDgWJTcxavZTp0YgJQkISoyXlxMua4 |
+| GUJCET result | 1ojy_oWJX-l0P41hJHyHT9a3Bk9VYO1H9DWN8xDmWyHY | 14PPH-o-3-S-XVmO7d-AiOS2WJLmPMpXMrCQ5_8xAXjc |
+| Amity student login | 1WTYCCNkONjevLq7_hs3Y_QHvGWrYjDgkP-4LbCjx27k | 1EXOLfv9CoRX3cNS-ozp-KgUHJ8-ggo5hbG7c2PQGeFg |
 
 Open each document at `https://docs.google.com/document/d/<ID>/edit`.
+The three additional articles were imported on 28 October 2026 from the
+linked content documents in the supplied blog tracker. Their individual dates
+are set in `lib/blog.ts`. Dates and recruitment claims in supplied copy are
+not independent verification of official notices. The AOC import corrects a
+contradictory statement claiming an unverified admit-card date was announced.
 Unrelated text in the MBA and ABC FAQs and a broken IDE reference have been
 removed. An external tracking parameter has also been removed.
 The marksheet guide removes a contradictory December 2026 exam date and
