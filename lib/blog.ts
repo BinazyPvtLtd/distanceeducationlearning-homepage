@@ -3,7 +3,7 @@ import ignouIdCardImage from "@/public/assets/ignou-id-card.webp";
 import madrasMbaImage from "@/public/assets/madras-university-distance-mba.webp";
 import abcIdCardImage from "@/public/assets/abc-id-card.webp";
 import ignouMarksheetImage from "@/public/assets/How to Download IGNOU Marksheet Online.webp";
-import aocRecruitmentImage from "@/public/assets/AOC Recruitment 2026 Notification, Eligibility and Apply Online.webp";
+import aocRecruitmentImage from "@/public/assets/aoc-recruitment.webp";
 import gujcetResultImage from "@/public/assets/GUJCET Result 2026 Check Result and  Scorecar.webp";
 import amityStudentLoginImage from "@/public/assets/img/amity-logo.webp";
 
