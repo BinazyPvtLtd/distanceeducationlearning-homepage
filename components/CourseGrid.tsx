@@ -8,9 +8,7 @@ import { btnPrimary, btnSm } from "@/lib/styles";
 import { LEAD_COURSES } from "@/lib/data";
 import { useLeadModal } from "./LeadModalContext";
 
-// Every card below is an online MBA programme, so "Apply Now" preselects the
-// verified "Online MBA" record from the courses API (id 15) rather than
-// leaving the course field empty.
+
 const MBA_COURSE = LEAD_COURSES.find((c) => c.label === "Online MBA")!;
 
 const revealCls =

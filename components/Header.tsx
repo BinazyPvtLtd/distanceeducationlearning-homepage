@@ -8,10 +8,7 @@ import logoColor from "@/public/logo-color.png";
 import { btnPrimary, btnSm } from "@/lib/styles";
 import { useLeadModal } from "./LeadModalContext";
 
-// Sections spied on scroll instead of routing to a dedicated page. Order
-// matters: it's used to break ties when multiple sections are in view at
-// once (bottom-most wins), and should match each section's vertical
-// position on the page.
+
 const SPY_SECTIONS = [
 
   { id: "universities", href: "/#universities", label: "Universities" },
@@ -26,8 +23,6 @@ const NAV_LINKS = [
   { href: "/contact-us", label: "Contact Us" },
 ];
 
-// Header is 76px tall; trigger once a spied section clears it, and treat the
-// bottom 70% of the viewport as "not yet in view" so the switch happens near the top.
 const SCROLLSPY_ROOT_MARGIN = "-76px 0px -70% 0px";
 
 export default function Header() {
