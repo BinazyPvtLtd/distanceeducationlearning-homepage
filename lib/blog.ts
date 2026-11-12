@@ -5,7 +5,11 @@ import abcIdCardImage from "@/public/assets/abc-id-card.webp";
 import ignouMarksheetImage from "@/public/assets/How to Download IGNOU Marksheet Online.webp";
 import aocRecruitmentImage from "@/public/assets/aoc-recruitment.webp";
 import gujcetResultImage from "@/public/assets/GUJCET Result 2026 Check Result and  Scorecar.webp";
-import amityStudentLoginImage from "@/public/assets/img/amity-logo.webp";
+import amityStudentLoginImage from "@/public/assets/amity.webp";
+import igpercentage from "@/public/assets/ignou-percentage_11zon.webp";
+import openUniversitiesKolkataImage from "@/public/assets/open-universities-kolkata_11zon.webp";
+import submitIgnouAssignmentImage from "@/public/assets/submit-ignou-assignment_11zon.webp";
+import aktuOddSemesterImage from "@/public/assets/aktu-odd-semester-admit-card_11zon.webp";
 
 export const BLOG_SITE_URL = "https://distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-14";
@@ -39,6 +43,40 @@ export type BlogPost = {
 export const blogContact = { whatsappNumber: "919217310430" };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "how-is-the-ignou-percentage-calculated",
+    title: "How Is the IGNOU Percentage Calculated?",
+    metaTitle: "How to Calculate IGNOU Percentage? Formula & Calculator",
+    description:
+      "Learn how to calculate IGNOU percentage using assignment and exam marks, with a free calculator, grade card steps and course-wise examples.",
+    category: "Student Guides",
+    bannerTitle: "IGNOU Percentage Calculation",
+    gradient: "from-[#164e63] to-[#2563eb]",
+    image: {
+      src: igpercentage.src,
+      alt: "how-is-the-ignou-percentage-calculated",
+    },
+    quickAnswer:
+      "Check your programme's evaluation scheme first. For a course with 30% assignment and 70% term-end exam weightage, multiply the assignment percentage by 0.30 and the exam percentage by 0.70, then add them. Scores of 80 and 70 give 73%. Practical, project and overall programme rules may differ.",
+    source: {
+      label: "IGNOU Grade Card Portal",
+      href: "https://gradecard.ignou.ac.in/",
+    },
+    keywords: [
+      "how to calculate IGNOU percentage",
+      "IGNOU percentage calculator online",
+      "IGNOU result calculator",
+      "IGNOU BA percentage calculator",
+      "IGNOU grade card calculator",
+      "how IGNOU marks are calculated",
+      "IGNOU BCA percentage calculator",
+      "IGNOU marks calculator",
+      "IGNOU grade card percentage",
+      "IGNOU CGPA calculator",
+    ],
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+  },
   {
     slug: "aoc-recruitment",
     title: "AOC Recruitment 2026: Notification, Eligibility & Apply Online",
@@ -337,6 +375,96 @@ export const blogPosts: BlogPost[] = [
       label: "Academic Bank of Credits",
       href: "https://www.abc.gov.in/",
     },
+  },
+  {
+    slug: "top-open-universities-in-kolkata",
+    title: "Top Open Universities in Kolkata: Courses & Admission Guide",
+    metaTitle: "Top Open Universities in Kolkata: Courses & Admission",
+    description:
+      "Compare open and distance learning options available to students in Kolkata, including programme choices, recognition checks and admission steps.",
+    keywords: [
+      "top open universities in kolkata",
+      "open university in kolkata",
+      "distance education universities in kolkata",
+      "distance learning courses kolkata",
+      "open universities west bengal",
+      "distance education admission kolkata",
+    ],
+    category: "Admissions",
+    bannerTitle: "Open Universities in Kolkata",
+    gradient: "from-[#134e4a] to-[#0e7490]",
+    image: {
+      src: openUniversitiesKolkataImage.src,
+      alt: "Open universities and distance learning options in Kolkata",
+    },
+    quickAnswer:
+      "Kolkata learners can compare open and distance programmes offered by state and national universities, including Netaji Subhas Open University and IGNOU. Before enrolling, confirm that the specific programme and mode are currently recognised, and use the university's official prospectus for fees and admission dates.",
+    source: {
+      label: "Netaji Subhas Open University",
+      href: "https://www.wbnsou.ac.in/",
+    },
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+  },
+  {
+    slug: "how-to-submit-ignou-assignment",
+    title: "How to Submit IGNOU Assignment: Online & Offline Steps",
+    metaTitle: "How to Submit IGNOU Assignment Online or Offline",
+    description:
+      "Follow a practical checklist for preparing and submitting IGNOU assignments, checking your study centre's method and confirming receipt.",
+    keywords: [
+      "how to submit ignou assignment",
+      "IGNOU assignment submission online",
+      "IGNOU assignment submission offline",
+      "IGNOU assignment submission status",
+      "IGNOU assignment last date",
+      "IGNOU assignment study centre",
+    ],
+    category: "Assignments",
+    bannerTitle: "Submit Your IGNOU Assignment",
+    gradient: "from-[#1e3a8a] to-[#0e7490]",
+    image: {
+      src: submitIgnouAssignmentImage.src,
+      alt: "Guide to submitting an IGNOU assignment",
+    },
+    quickAnswer:
+      "Use the submission method announced for your programme and study centre. Prepare the assignment according to the current instructions, submit it through the authorised online portal or designated centre, and save the acknowledgement. Check the latest deadline on IGNOU's official notices because schedules can vary by session and programme.",
+    source: {
+      label: "Indira Gandhi National Open University",
+      href: "https://www.ignou.ac.in/student-services",
+    },
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+  },
+  {
+    slug: "aktu-odd-semester-result",
+    title: "AKTU Odd Semester Result: How to Check & Download",
+    metaTitle: "AKTU Odd Semester Result: Check Result & Marksheet",
+    description:
+      "Learn how to find the latest AKTU odd semester result notice, check your marks, download the result and resolve common login issues.",
+    keywords: [
+      "AKTU odd semester result",
+      "AKTU result odd semester",
+      "AKTU odd sem result check",
+      "Dr APJ Abdul Kalam Technical University result",
+      "AKTU marksheet download",
+      "AKTU result portal",
+    ],
+    category: "Results",
+    bannerTitle: "AKTU Odd Semester Result",
+    gradient: "from-[#7c2d12] to-[#b45309]",
+    image: {
+      src: aktuOddSemesterImage.src,
+      alt: "AKTU odd semester result and admit card guide",
+    },
+    quickAnswer:
+      "Open the official AKTU results portal and choose the relevant odd semester result link. Enter the requested roll number or other details, verify the displayed marks and save a copy. Result publication dates vary by examination, so check the university's latest notice rather than relying on an unverified date.",
+    source: {
+      label: "Dr. A.P.J. Abdul Kalam Technical University",
+      href: "https://aktu.ac.in/",
+    },
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
   },
 ];
 

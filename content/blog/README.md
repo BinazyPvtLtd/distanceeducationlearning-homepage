@@ -37,6 +37,13 @@ accepts the format.
 | AOC recruitment | 1-Ag4HJ3bn9slcUeurT4APoWQMGxhoYbEo4ca3tmwqlg | 1D-vX9fmEb5nXkIDgWJTcxavZTp0YgJQkISoyXlxMua4 |
 | GUJCET result | 1ojy_oWJX-l0P41hJHyHT9a3Bk9VYO1H9DWN8xDmWyHY | 14PPH-o-3-S-XVmO7d-AiOS2WJLmPMpXMrCQ5_8xAXjc |
 | Amity student login | 1WTYCCNkONjevLq7_hs3Y_QHvGWrYjDgkP-4LbCjx27k | 1EXOLfv9CoRX3cNS-ozp-KgUHJ8-ggo5hbG7c2PQGeFg |
+| IGNOU percentage calculation | Authored from the supplied SEO outline | 1CtsyolvRhjrAkIGswkA6IsmEUtCwpHq4YgO1Edp_MdM |
+
+The IGNOU percentage guide is dated 31 October 2026. Both tracker links point
+to the same SEO outline, so the article was authored from that outline rather
+than imported as finished copy. It includes a two-component course calculator,
+programme-specific evaluation guidance and official source links. The 30:70
+example was checked against IGNOU's BANM-163 January 2026 assignment booklet.
 
 Open each document at `https://docs.google.com/document/d/<ID>/edit`.
 The three additional articles were imported on 28 October 2026 from the

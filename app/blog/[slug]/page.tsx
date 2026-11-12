@@ -14,6 +14,7 @@ import ArticleContent, { ArticleFaqs } from "@/components/blog/ArticleContent";
 import BlogBanner from "@/components/blog/BlogBanner";
 import BlogCta from "@/components/blog/BlogCta";
 import ReadingProgress from "@/components/blog/ReadingProgress";
+import IgnouPercentageCalculator from "@/components/blog/IgnouPercentageCalculator";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -61,7 +62,7 @@ export default async function BlogArticlePage({ params }: Props) {
   const post = getBlogPost(slug);
   if (!post) notFound();
   const content = await getBlogContent(slug);
-  const related = blogPosts.filter((item) => item.slug !== slug);
+  const related = blogPosts.filter((item) => item.slug !== slug).slice(0, 3);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -196,6 +197,9 @@ export default async function BlogArticlePage({ params }: Props) {
               ))}
             </nav>
           </details>
+          {slug === "how-is-the-ignou-percentage-calculated" && (
+            <IgnouPercentageCalculator />
+          )}
           <ArticleContent blocks={content.blocks} />
           <ArticleFaqs faqs={content.faqs} />
           <div className="my-9">

@@ -23,7 +23,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-white/72">
-      <div className="mx-auto grid max-w-[1180px] grid-cols-[1.5fr_1fr_1fr_1fr_1.4fr] gap-[34px] px-6 pt-11 pb-[34px] max-[980px]:grid-cols-2 max-[980px]:gap-7 max-[620px]:grid-cols-1">
+      <div className="mx-auto grid max-w-295 grid-cols-[1.5fr_1fr_1fr_1fr_1.4fr] gap-8.5 px-6 pt-11 pb-8.5 max-[980px]:grid-cols-2 max-[980px]:gap-7 max-[620px]:grid-cols-1">
         <div>
           <Image
             src={logoWhite}
@@ -32,11 +32,11 @@ export default function Footer() {
             height={44}
             className="mb-3.5 h-11 w-auto"
           />
-          <p className="max-w-[250px] text-[13px]">
+          <p className="max-w-62.5 text-[13px]">
             Empowering learners worldwide with quality education and flexible
             learning solutions for a better future.
           </p>
-          <nav className="mt-[18px] flex gap-[10px]" aria-label="Social media">
+          <nav className="mt-4.5 flex gap-2.5" aria-label="Social media">
             <a
               className="flex h-11 w-11 items-center justify-center rounded-[7px] bg-white/12 text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue"
               href="https://www.instagram.com/distance_edu_learning/"
@@ -161,55 +161,55 @@ export default function Footer() {
 
           <ul className={ulCls}>
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – Amity University
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – Manipal University
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – LPU
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – VGU
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – NMIMS
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – UPES
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – JAIN
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – Chandigarh University
               </Link>
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Online MBA – Sharda University
               </Link>
             </li>
@@ -233,7 +233,7 @@ export default function Footer() {
             </li>
 
             <li>
-              <Link className={linkHover} href="/#courses">
+              <Link className={linkHover} href="/courses">
                 Courses
               </Link>
             </li>
@@ -255,9 +255,9 @@ export default function Footer() {
         <div id="contact">
           <h4 className={h4Cls}>Contact Us</h4>
           <ul className={`${ulCls} gap-3.5`}>
-            <li className="flex items-start gap-[9px]">
+            <li className="flex items-start gap-2.25">
               <svg
-                className="mt-1 h-[15px] w-[15px] flex-none stroke-blue fill-none [stroke-width:1.8]"
+                className="mt-1 h-3.75 w-3.75 flex-none stroke-blue fill-none stroke-[1.8]"
                 viewBox="0 0 24 24">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
                 <path d="M3.5 6.5L12 12.5l8.5-6" />
@@ -268,9 +268,9 @@ export default function Footer() {
                 info@distanceeducationlearning.com
               </a>
             </li>
-            <li className="flex items-start gap-[9px]">
+            <li className="flex items-start gap-2.25">
               <svg
-                className="mt-1 h-[15px] w-[15px] flex-none stroke-blue fill-none [stroke-width:1.8]"
+                className="mt-1 h-3.75 w-3.75 flex-none stroke-blue fill-none stroke-[1.8]"
                 viewBox="0 0 24 24">
                 <path d="M5 4h3.5l1.6 4-2.3 1.4a12 12 0 005.8 5.8l1.4-2.3 4 1.6V18a2 2 0 01-2.2 2A16 16 0 013 6.2 2 2 0 015 4z" />
               </svg>
@@ -278,9 +278,9 @@ export default function Footer() {
                 +91 9217310430
               </a>
             </li>
-            <li className="flex items-start gap-[9px]">
+            <li className="flex items-start gap-2.25">
               <svg
-                className="mt-1 h-[15px] w-[15px] flex-none stroke-blue fill-none [stroke-width:1.8]"
+                className="mt-1 h-3.75 w-3.75 flex-none stroke-blue fill-none stroke-[1.8]"
                 viewBox="0 0 24 24">
                 <path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11z" />
                 <circle cx="12" cy="10" r="2.5" />
@@ -293,12 +293,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-[1180px] flex-wrap items-center justify-between gap-4 border-t border-white/12 px-6 py-4 text-xs max-[620px]:flex-col max-[620px]:text-center">
+      <div className="mx-auto flex max-w-295 flex-wrap items-center justify-between gap-4 border-t border-white/12 px-6 py-4 text-xs max-[620px]:flex-col max-[620px]:text-center">
         <span>
           &copy; <span data-year>{year}</span> Distance Education Learning. All
           Rights Reserved.
         </span>
-        <nav className="flex gap-[22px]" aria-label="Legal">
+        <nav className="flex gap-5.5" aria-label="Legal">
           <button
             type="button"
             className={`${linkHover} cursor-pointer`}
@@ -322,7 +322,7 @@ export default function Footer() {
 
       {openLegal && (
         <div
-          className="fixed inset-0 z-[200] flex items-center justify-center bg-navy/70 p-4 sm:p-6"
+          className="fixed inset-0 z-200 flex items-center justify-center bg-navy/70 p-4 sm:p-6"
           onClick={() => setOpenLegal(null)}>
           <div
             role="dialog"

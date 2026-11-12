@@ -13,12 +13,13 @@ import { useLeadModal } from "./LeadModalContext";
 // once (bottom-most wins), and should match each section's vertical
 // position on the page.
 const SPY_SECTIONS = [
-  { id: "courses", href: "/#courses", label: "Courses" },
+
   { id: "universities", href: "/#universities", label: "Universities" },
 ];
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
+  { href: "/courses", label: "Courses" },
   ...SPY_SECTIONS,
   { href: "/blog", label: "Blogs" },
   { href: "/about-us", label: "About Us" },
