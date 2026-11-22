@@ -38,6 +38,7 @@ accepts the format.
 | GUJCET result | 1ojy_oWJX-l0P41hJHyHT9a3Bk9VYO1H9DWN8xDmWyHY | 14PPH-o-3-S-XVmO7d-AiOS2WJLmPMpXMrCQ5_8xAXjc |
 | Amity student login | 1WTYCCNkONjevLq7_hs3Y_QHvGWrYjDgkP-4LbCjx27k | 1EXOLfv9CoRX3cNS-ozp-KgUHJ8-ggo5hbG7c2PQGeFg |
 | IGNOU percentage calculation | Authored from the supplied SEO outline | 1CtsyolvRhjrAkIGswkA6IsmEUtCwpHq4YgO1Edp_MdM |
+| AKTU admit card | 1mv_4NjfcJWZHsA1g3Agqw06qnIUFRRWqm01kTRZLbNE | 1YC34m3OdrXRnnRFFGOINuKCt9o4F83bxuXx-KydBo1U |
 
 The IGNOU percentage guide is dated 31 October 2026. Both tracker links point
 to the same SEO outline, so the article was authored from that outline rather

@@ -104,7 +104,7 @@ The result of the Term-End Examination states the performance of an examination,
 
 ### Term End Result December 2026
 
-Check the December 2026 Term-End Examination result only after IGNOU publishes it through its official result service. Refer to the university’s current notices for the examination timetable and result updates. After results are available, check each course and any pending grade-card components before enquiring about your final marksheet.
+The December 2026 results will be based on the December Term-End Examination and how the university grades the result of each student. The December 2026 Term-End Examination is yet to be conducted, as it is scheduled for 11 October 2026, so the result cannot be considered to have been announced. After the results are published, students can check their performance in each subject and keep in mind that their grade card will also have been completed. The term-end result for December 2026 should be checked through the official result service as soon as it is announced.
 
 ## How to Download IGNOU Grade Card 2026
 
@@ -112,15 +112,15 @@ If students want to download the IGNOU Marksheet 2026, they may find the markshe
 
 ### Steps to Check IGNOU Grade Card
 
-1. Visit the official IGNOU website
-2. Open the Grade Card portal
+1. Visit the official IGNOU website.
+2. Open the Grade Card section.
 3. Select the relevant programme.
 4. Enter the enrollment number.
 5. Submit the details.
 6. Review course-wise marks, grades and status.
 7. Save or print the available academic record.
 
-Repeat the check when pending results are updated. An incomplete grade card IGNOU 2026 should not automatically be interpreted as a final programme result.
+Repeat the check when pending results are updated. An incomplete grade card IGNOU 2026 should not automatically be interpreted as a final programme result.
 
 ## IGNOU Marksheet for Alumni
 
@@ -144,7 +144,7 @@ Students can contact their IGNOU Regional Centre /the appropriate student-suppor
 
 ## Documents Required for IGNOU Marksheet-Related Queries
 
-Students enquiring about ignou marksheet status or dispatch should keep the following information available:
+Students enquiring about ignou marksheet status or dispatch should keep the following information available:
 
 * Enrollment number.
 * IGNOU student ID card.
@@ -196,52 +196,52 @@ Students should act before finalizing the IGNOU 2026 marksheet download
 
 The steps are to verify the online result and grade card and to ensure that all the requirements of the programme have been met. Students can gauge their performances in the programme by the grade card, and the original marks are issued to the students following the document processing and delivery method for the marksheet. Students of IGNOU eagerly awaiting the IGNOU final marksheet should confirm the status of the IGNOU marksheet and whether or not it has been dispatched. If it has not been sent, the student is asked to contact the appropriate university authority. The results of the December 2026 Term-End Examination must be checked out only after the exam is over and the results are available.
 
-## Frequently Asked Questions
+## IGNOU Marksheet Download 2026 FAQs
 
-### How can I download my IGNOU marksheet online?
+### 1. How can I download my IGNOU marksheet online?
 
-Visit the official IGNOU Grade Card portal, select your programme, enter your enrollment number, and save or print the available online record. For the original final marksheet, follow IGNOU’s applicable document-issue process; do not assume the online grade card replaces it.
+To download the IGNOU grade card 2026, visit the IGNOU result page or the marksheet page. Programme registration numbers need to be entered and the academic record must be saved online. The original marksheets can be downloaded by following a separate method by the university.
 
-### Is IGNOU marksheet available for download online?
+### 2. Is IGNOU marksheet available for download online?
 
 IGNOU provides online results and grade cards. However, students should not assume that an online record replaces the original final marksheet issued through the university's document process.
 
-### How can I check my IGNOU marksheet status?
+### 3. How can I check my IGNOU marksheet status?
 
 Kindly check the result and the grade card to know the latest course marks and to make sure that the requirements of the programme have been met. In case the final doc is not yet available you may contact the concerned Ignou office for clarification.
 
-### How can I check IGNOU marksheet dispatch status?
+### 4. How can I check IGNOU marksheet dispatch status?
 
 Firstly, check if the program has been done and see any information you can find about status of the documents, If you do not have any information about the shipment, make a call to the Regional Centre and consult the postal tracing data given by the university.
 
-### How can I download my IGNOU grade card in 2026?
+### 5. How can I download my IGNOU grade card in 2026?
 
 Visit the IGNOU Grade Card portal, pick your program, enter your enrollment number, and view the listed scores. Afterward, you can save or print the generated record.
 
-### When will I receive my IGNOU final marksheet?
+### 6. When will I receive my IGNOU final marksheet?
 
 The last marksheet of Indira Gandhi National Open University is generally issued after all the program requirements and the academic record status have been finalized. It might take some time to receive the document in case some assessments and administration process is still ongoing.
 
-### What is the difference between IGNOU grade card and marksheet?
+### 7. What is the difference between IGNOU grade card and marksheet?
 
 The grade card displays course-wise academic performance and is available online. The marksheet is the formal academic document issued through the university's applicable process.
 
-### Can IGNOU alumni download their marksheet online?
+### 8. Can IGNOU alumni download their marksheet online?
 
 IGNOU graduates can view their academic records through the online portal. If they did not receive the original mark sheet, they need to verify that their program is completed and get in touch with the appropriate university office.
 
-### What should I do if I have not received my IGNOU marksheet?
+### 9. What should I do if I have not received my IGNOU marksheet?
 
 Check your grade card, verify that all subjects are complete and enquire about the ignou marksheet dispatch status. Contact the Regional Centre if the document remains outstanding.
 
-### Does the IGNOU Term-End result affect marksheet issuance?
+### 10. Does the IGNOU Term-End result affect marksheet issuance?
 
 Yes. The Term-End result contributes to the academic record, but pending assignments, practicals, projects or other requirements may delay final programme completion and marksheet processing.
 
-### Can I use the online IGNOU grade card instead of the original marksheet?
+### 11. Can I use the online IGNOU grade card instead of the original marksheet?
 
 The online grade card is useful for checking results, but it may not be accepted as a substitute for the original marksheet in every formal process. Confirm the document requirements with the organisation requesting it.
 
-### How can I check my IGNOU marksheet after the December 2026 Term-End Examination?
+### 12. How can I check my IGNOU marksheet after the December 2026 Term-End Examination?
 
-The term result December 2026 will become relevant after the examination is conducted and results are published. Students should then check individual course results, monitor grade-card updates and confirm programme completion before enquiring about the final marksheet.
+The term result December 2026 will become relevant after the examination is conducted and results are published. Students should then check individual course results, monitor grade-card updates and confirm programme completion before enquiring about the final marksheet.

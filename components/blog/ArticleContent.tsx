@@ -165,9 +165,7 @@ export function ArticleFaqs({
       </h2>
       {faqs.map((faq, index) => (
         <Fragment key={faq.question}>
-          <details
-            open={index === 0}
-            className="group mb-3 rounded-lg border border-line bg-white">
+          <details className="group mb-3 rounded-lg border border-line bg-white">
             <summary className="flex cursor-pointer list-none items-start justify-between gap-4 px-5 py-4 text-sm font-semibold text-ink [&::-webkit-details-marker]:hidden">
               <span>{faq.question}</span>
               <span

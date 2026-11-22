@@ -39,7 +39,7 @@ function parseContent(markdown: string): BlogContent {
     const heading = /^(#{2,3})\s+(.+)$/.exec(line);
     if (heading) {
       const text = plainText(heading[2]);
-      if (/frequently asked questions|^faqs\b/i.test(text)) {
+      if (/frequently asked questions|^faqs\b|\bfaqs?$/i.test(text)) {
         inFaq = true;
         continue;
       }
@@ -139,3 +139,4 @@ export const getBlogContent = cache(async (slug: string) => {
   );
   return parseContent(markdown);
 });
+

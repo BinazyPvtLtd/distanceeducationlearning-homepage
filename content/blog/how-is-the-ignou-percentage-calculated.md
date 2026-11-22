@@ -10,7 +10,7 @@ For a course assessed through assignments and a term-end examination, the genera
 
 If your course uses 30% assignment weightage and 70% examination weightage, the formula becomes **course score = (assignment percentage × 0.30) + (exam percentage × 0.70)**.
 
-IGNOU's official [BANM-163 assignment booklet for January 2026](https://www.ignou.ac.in/viewFile/SOSS/assignments/BANM-163-E-Jan-26.pdf) specifies this 30:70 split for that course. Always check your own programme guide before applying it elsewhere.
+IGNOU's official BANM-163 assignment booklet for January 2026 specifies this 30:70 split for that course. Always check your own programme guide before applying it elsewhere.
 
 ### Example of IGNOU Percentage Calculation
 
@@ -30,7 +30,7 @@ If a component is marked out of a different maximum, normalise it first: **compo
 
 Your course may include assignments, theory examinations, practical work, projects or other assessments. Identify the required components and their weightages from the applicable guide before combining marks.
 
-An estimated weighted score does not establish that you have passed. Separate passing requirements can apply to individual components. For example, the official [MASS evaluation guidance](https://sites.google.com/ignou.ac.in/mass/about/evaluation) specifies separate minimum scores in assignments and theory examinations for its theory courses. Use the requirements for your own programme rather than borrowing a pass mark from another course.
+An estimated weighted score does not establish that you have passed. Separate passing requirements can apply to individual components. For example, the official MASS evaluation guidance specifies separate minimum scores in assignments and theory examinations for its theory courses. Use the requirements for your own programme rather than borrowing a pass mark from another course.
 
 ## How to Use the IGNOU Marks Calculator
 
@@ -49,14 +49,14 @@ For the worked example, enter 80 for assignments, 70 for examinations and 30 for
 
 Use your grade card to identify course marks and completion status. Check whether the displayed marks are raw scores, percentages or already weighted results before calculating anything.
 
-1. Open the [official IGNOU grade card portal](https://gradecard.ignou.ac.in/).
+1. Open the official IGNOU grade card portal
 2. Select the relevant grade card option and programme, then enter the requested enrolment details.
 3. Check each required course and assessment component.
 4. Match the marks to the evaluation scheme for your programme and admission cycle.
 5. Calculate each completed course score using the correct weights.
 6. Apply your programme's prescribed aggregation method to calculate the overall result.
 
-If a required result is missing, treat your calculation as provisional. A blank mark is not automatically zero. Check the course status and contact the appropriate university support channel when a result appears incorrect. Our [IGNOU marksheet and grade card guide](/blog/how-to-download-ignou-marksheet) explains the difference between an online record and the original marksheet.
+If a required result is missing, treat your calculation as provisional. A blank mark is not automatically zero. Check the course status and contact the appropriate university support channel when a result appears incorrect. Our IGNOU marksheet and grade card guide explains the difference between an online record and the original marksheet.
 
 ## IGNOU Result Calculator: Overall Percentage
 
@@ -115,10 +115,10 @@ When entering a result on an application form, use the university's result and t
 
 ## Official IGNOU Result and Grade Card Links
 
-- [IGNOU official website](https://www.ignou.ac.in/): find programme information and university notices.
-- [IGNOU grade card portal](https://gradecard.ignou.ac.in/): check course marks and completion status.
-- [IGNOU Student Evaluation Division](https://www.ignou.ac.in/pages/182): consult university evaluation information.
-- [BANM-163 January 2026 assignment booklet](https://www.ignou.ac.in/viewFile/SOSS/assignments/BANM-163-E-Jan-26.pdf): an official example documenting 30:70 weightage.
+- IGNOU official website find programme information and university notices.
+- IGNOU grade card portal: check course marks and completion status.
+- IGNOU Student Evaluation Division: consult university evaluation information.
+- BANM-163 January 2026 assignment booklet:an official example documenting 30:70 weightage.
 
 Use this guide and calculator to understand and estimate your marks. The university's official result and the evaluation scheme for your programme determine your final academic record.
 

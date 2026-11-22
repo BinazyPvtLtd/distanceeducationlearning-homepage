@@ -114,11 +114,11 @@ Students should use the Official Amity Online Website to access their accounts u
 4. Complete the required verification.
 5. Open the student dashboard.
 
-The login Amity Online process should be completed only on the official platform. Students should not enter passwords on third-party websites claiming to provide university login services.
+The login Amity Online process should be completed only on the official platform. Students should not enter passwords on third-party websites claiming to provide university login services.
 
 ## What Can I Do After Amity University Student Login?
 
-The services available after the Amity University student login depend on the student's programme and account access. Common academic activities include the following.
+The services available after the Amity University student login depend on the student's programme and account access. Common academic activities include the following.
 
 ### Access Online Classes
 
@@ -138,7 +138,7 @@ Students can find their examination schedules, and information regarding their a
 
 ### Check Results
 
-Student dashboards and/or a results section may include information about student academic performance and/or available results. It is the student’s responsibility to confirm the program and exam details before relying on the information displayed. Generally, the information displayed may be student- and program-specific.
+Student dashboards and a results section may include information about student academic performance and available results. It is the student’s responsibility to confirm the program and exam details before relying on the information displayed. Generally, the information displayed may be student- and program-specific.
 
 ## Amity Student Login Forgot Password
 
@@ -253,53 +253,52 @@ These measures help protect academic information and reduce avoidable access pro
 
 The Amity Online Student Login portal gives registered students the opportunity to access their academic dashboards, courses, and other services. New students may have to complete registration/account activation while existing students can log in with their registered details. Forgotten passwords and several login attempts should be handled using the official procedures, or university support should be contacted. Always log in to the correct Amity student portal through the official site. Keep your account details safe.
 
-## Frequently Asked Questions
+## Amity Online Student Login FAQs
 
-### How do I access Amity Online Student Login?
+### 1. How do I access Amity Online Student Login?
 
 Visit the official website of Amity Online and click on the student login button. Enter your email id/username and password. You may also have to complete some verification process.
 
-### How can I register for the Amity student portal?
+### 2. How can I register for the Amity student portal?
 
 Visit Amity Online's official website and go through the registration process to create an account. Next, go through the account activation process. Upon completing the account activation process, sign in to your account and continue with the instructions provided.
 
-### What is the Amity University student login?
+### 3. What is the Amity University student login?
 
 The Amity University Student Login is an account access facility to various services offered by the University. The services available vary based on the campus, program and enrollment of the student.
 
-### How can I access the Amity Online student portal?
+### 4. How can I access the Amity Online student portal?
 
 Visit the official Amity Online website, locate the Student Login option and sign in using the credentials associated with your enrolled student account.
 
-### What credentials are required for Amity Online Student Login?
+### 5. What credentials are required for Amity Online Student Login?
 
 Students generally require their registered email address or username and password. Additional verification may be required according to the portal's instructions.
 
-### How can I reset my Amity student login password?
+### 6. How can I reset my Amity student login password?
 
 Select the Forgot Password option on the appropriate official login page, enter the requested account details and follow the verification and password-reset instructions.
 
-### What can I access after Amity University student login?
+### 7. What can I access after Amity University student login?
 
 Depending on the programme, students may access courses, class information, study materials, assignments, examination details, results, announcements and support services.
 
-### How do I use Amity Student Zone Login?
+### 8. How do I use Amity Student Zone Login?
 
 Open the relevant official Student Zone portal, enter your registered credentials, complete any required verification and access the services available to your account.
 
-### What should I do if my Amity Online login is not working?
+### 9. What should I do if my Amity Online login is not working?
 
 Check your credentials, confirm account activation, reset the password if needed and try another supported browser. Contact official student support if the problem persists.
 
-### Can I access the Amity student portal on mobile?
+### 10. Can I access the Amity student portal on mobile?
 
 Yes, students can generally try accessing the portal through a compatible mobile browser. The services available may depend on the portal's mobile support and the student's account.
 
-### Where can I find the Amityonline.com student login?
+### 11. Where can I find the Amityonline.com student login?
 
 Start from the official Amity Online website and select the existing-student login option. Verify the destination before entering your credentials.
 
-### Is Amity University student login the same as Amity Online student login?
+### 12. Is Amity University student login the same as Amity Online student login?
 
 Not necessarily. Different login portals may serve campus-based university services, online programmes or specific student functions. Select the portal designated for your enrolment.
-
