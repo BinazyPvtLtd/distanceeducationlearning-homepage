@@ -65,7 +65,7 @@ export default function LeadModal({ presetCourse, onClose }: Props) {
         tabIndex={-1}
         aria-modal="true"
         aria-labelledby="lead-modal-heading"
-        className="relative max-h-[90vh] w-full max-w-125 overflow-y-auto rounded-2xl border-2 border-purple bg-white p-6 shadow-[0_20px_60px_rgba(124,58,237,0.35)] sm:p-8">
+        className="relative max-h-[90vh] w-full max-w-125 overflow-y-auto rounded-2xl bg-white p-6 focus-visible:outline-none sm:p-8">
         <button
           type="button"
           onClick={onClose}

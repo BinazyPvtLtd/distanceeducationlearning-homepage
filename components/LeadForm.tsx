@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { LEAD_COURSES, INDIAN_STATES, type LeadCourse } from "@/lib/data";
 import { submitLead } from "@/lib/leadApi";
+import LeadDropdown from "./LeadDropdown";
 
 type Props = {
   presetCourse?: LeadCourse | null;
@@ -204,23 +205,20 @@ export default function LeadForm({
         <label className={labelCls} htmlFor={`${formId}-course`}>
           Course
         </label>
-        <select
+        <LeadDropdown
           id={`${formId}-course`}
-          aria-invalid={Boolean(errors.course)}
-          aria-describedby={
-            errors.course ? `${formId}-course-error` : undefined
-          }
           className={inputCls}
           value={courseId}
-          onChange={(e) => setCourseId(e.target.value)}
-          disabled={submitting}>
-          <option value="">Select Course</option>
-          {LEAD_COURSES.map((c) => (
-            <option key={c.id} value={c.id}>
-              {c.label}
-            </option>
-          ))}
-        </select>
+          placeholder="Select Course"
+          invalid={Boolean(errors.course)}
+          describedBy={errors.course ? `${formId}-course-error` : undefined}
+          options={LEAD_COURSES.map((course) => ({
+            value: String(course.id),
+            label: course.label,
+          }))}
+          onChange={setCourseId}
+          disabled={submitting}
+        />
         {errors.course && (
           <p id={`${formId}-course-error`} className={errorCls}>
             {errors.course}
@@ -232,21 +230,20 @@ export default function LeadForm({
         <label className={labelCls} htmlFor={`${formId}-state`}>
           State
         </label>
-        <select
+        <LeadDropdown
           id={`${formId}-state`}
-          aria-invalid={Boolean(errors.state)}
-          aria-describedby={errors.state ? `${formId}-state-error` : undefined}
           className={inputCls}
           value={state}
-          onChange={(e) => setState(e.target.value)}
-          disabled={submitting}>
-          <option value="">Select State</option>
-          {INDIAN_STATES.map((s) => (
-            <option key={s} value={s}>
-              {s}
-            </option>
-          ))}
-        </select>
+          placeholder="Select State"
+          invalid={Boolean(errors.state)}
+          describedBy={errors.state ? `${formId}-state-error` : undefined}
+          options={INDIAN_STATES.map((stateName) => ({
+            value: stateName,
+            label: stateName,
+          }))}
+          onChange={setState}
+          disabled={submitting}
+        />
         {errors.state && (
           <p id={`${formId}-state-error`} className={errorCls}>
             {errors.state}
