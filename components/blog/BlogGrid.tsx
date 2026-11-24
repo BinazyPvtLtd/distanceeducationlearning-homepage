@@ -18,7 +18,9 @@ export default function BlogGrid({ posts }: { posts: BlogCardPost[] }) {
       <section className="bg-[linear-gradient(135deg,#1e3a8a,#2563eb_60%,#0ea5e9)] text-white">
         <div className="mx-auto max-w-[1080px] px-6 py-12 sm:py-14">
           <nav aria-label="Breadcrumb" className="mb-4 text-sm text-white/85">
-            <Link href="/" className="hover:underline">
+            <Link
+              href="/"
+              className="inline-flex min-h-11 items-center hover:underline">
               Home
             </Link>
             <span aria-hidden="true" className="mx-2">

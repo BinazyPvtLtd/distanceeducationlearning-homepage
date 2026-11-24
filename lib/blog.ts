@@ -474,6 +474,41 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-11-22",
     updatedAt: "2026-11-22",
   },
+  {
+    slug: "babasaheb-ambedkar-open-university-distance-courses",
+    title: "Dr. Babasaheb Ambedkar Open University Courses & Admissions",
+    metaTitle: "Dr. Babasaheb Ambedkar Open University Courses & Admissions",
+    description:
+      "Explore Dr. Babasaheb Ambedkar Open University courses, eligibility, fees, admission process, BAOU diploma courses, syllabus, and distance learning options.",
+    keywords: [
+      "Dr. Babasaheb Ambedkar Open University course admissions",
+      "ambedkar university ahmedabad",
+      "baou all courses",
+      "baou courses",
+      "baou courses list",
+      "dr babasaheb ambedkar open university courses list",
+      "baou syllabus",
+      "ambedkar university ahmedabad courses list",
+      "baou education for all",
+      "baou diploma courses",
+      "dr babasaheb ambedkar open university courses",
+      "ambedkar university courses list",
+      "bou open university",
+      "ambedkar open university courses",
+      "babasaheb ambedkar university courses",
+    ],
+    category: "Admissions",
+    bannerTitle: "BAOU Courses & Admissions",
+    gradient: "from-[#1e3a8a] to-[#0e7490]",
+    quickAnswer:
+      "BAOU offers programmes across different academic levels, subject to current availability. Course eligibility, fees, learning mode and admission steps vary by programme, so check the latest BAOU prospectus and official admission notice before applying.",
+    source: {
+      label: "Dr. Babasaheb Ambedkar Open University",
+      href: "https://baou.edu.in/",
+    },
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+  },
 ];
 
 export function getBlogPost(slug: string) {

@@ -134,11 +134,15 @@ export default async function BlogArticlePage({ params }: Props) {
           <nav
             aria-label="Breadcrumb"
             className="mb-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-white/85 sm:text-sm">
-            <Link href="/" className="hover:underline">
+            <Link
+              href="/"
+              className="inline-flex min-h-11 items-center hover:underline">
               Home
             </Link>
             <span aria-hidden="true">›</span>
-            <Link href="/blog" className="hover:underline">
+            <Link
+              href="/blog"
+              className="inline-flex min-h-11 items-center hover:underline">
               Blogs
             </Link>
             <span aria-hidden="true">›</span>
@@ -169,7 +173,7 @@ export default async function BlogArticlePage({ params }: Props) {
               <a
                 key={item.id}
                 href={`#${item.id}`}
-                className="block border-l-2 border-line py-2 pl-3 transition hover:border-blue-strong hover:text-blue-strong">
+                className="flex min-h-11 items-center border-l-2 border-line py-2 pl-3 transition hover:border-blue-strong hover:text-blue-strong">
                 {item.title}
               </a>
             ))}
@@ -189,9 +193,12 @@ export default async function BlogArticlePage({ params }: Props) {
             </summary>
             <nav
               aria-label="Table of contents"
-              className="grid gap-3 px-4 pb-4 text-sm text-blue-strong">
+              className="grid gap-1 px-4 pb-4 text-sm text-blue-strong">
               {content.toc.map((item) => (
-                <a key={item.id} href={`#${item.id}`}>
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  className="flex min-h-11 items-center">
                   {item.title}
                 </a>
               ))}
@@ -228,7 +235,7 @@ export default async function BlogArticlePage({ params }: Props) {
           </section>
           <Link
             href="/blog"
-            className="mt-6 inline-block text-sm font-semibold text-blue-strong">
+            className="mt-6 inline-flex min-h-11 items-center text-sm font-semibold text-blue-strong">
             ← Back to all guides
           </Link>
         </article>

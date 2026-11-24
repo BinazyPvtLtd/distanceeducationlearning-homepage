@@ -12,7 +12,7 @@ import {
   type LegalKey,
 } from "@/lib/legalContent";
 
-const linkHover = "hover:text-white";
+const linkHover = "inline-flex min-h-11 items-center hover:text-white";
 const h4Cls = "mb-3.5 text-sm text-white";
 const ulCls = "grid list-none gap-[9px] text-[13px]";
 
@@ -298,7 +298,7 @@ export default function Footer() {
           &copy; <span data-year>{year}</span> Distance Education Learning. All
           Rights Reserved.
         </span>
-        <nav className="flex gap-5.5" aria-label="Legal">
+        <nav className="flex flex-wrap gap-x-5.5" aria-label="Legal">
           <button
             type="button"
             className={`${linkHover} cursor-pointer`}

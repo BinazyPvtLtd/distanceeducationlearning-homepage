@@ -36,7 +36,7 @@ export default function BlogBanner({
           />
           <div
             className={`relative text-white ${featured ? "p-8 sm:p-10" : "p-6"}`}>
-            <span className="mb-3 block text-[11px] font-semibold tracking-[.15em] uppercase text-white/75">
+            <span className="mb-3 block text-xs font-semibold tracking-[.15em] uppercase text-white/75">
               Distance Education Learning
             </span>
             <span

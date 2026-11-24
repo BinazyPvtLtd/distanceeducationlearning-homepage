@@ -39,6 +39,7 @@ accepts the format.
 | Amity student login | 1WTYCCNkONjevLq7_hs3Y_QHvGWrYjDgkP-4LbCjx27k | 1EXOLfv9CoRX3cNS-ozp-KgUHJ8-ggo5hbG7c2PQGeFg |
 | IGNOU percentage calculation | Authored from the supplied SEO outline | 1CtsyolvRhjrAkIGswkA6IsmEUtCwpHq4YgO1Edp_MdM |
 | AKTU admit card | 1mv_4NjfcJWZHsA1g3Agqw06qnIUFRRWqm01kTRZLbNE | 1YC34m3OdrXRnnRFFGOINuKCt9o4F83bxuXx-KydBo1U |
+| Dr. Babasaheb Ambedkar Open University courses | Authored from the supplied SEO outline | 1Ccj90wp9BF79AYTrlpUlHCuAhqbLbV6ZGwSpqfyJoUQ |
 
 The IGNOU percentage guide is dated 31 October 2026. Both tracker links point
 to the same SEO outline, so the article was authored from that outline rather
@@ -56,3 +57,6 @@ Unrelated text in the MBA and ABC FAQs and a broken IDE reference have been
 removed. An external tracking parameter has also been removed.
 The marksheet guide removes a contradictory December 2026 exam date and
 clarifies that saving an online grade card does not replace the original marksheet.
+The BAOU courses guide is authored from its supplied SEO outline. Programme
+availability, eligibility, fees and admission dates are described as course- and
+session-specific and should be confirmed in BAOU's latest official prospectus.
