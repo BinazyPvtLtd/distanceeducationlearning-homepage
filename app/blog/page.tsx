@@ -15,7 +15,12 @@ export const metadata: Metadata = {
 };
 
 export default function BlogsPage() {
-  const posts = blogPosts;
+  const posts = [...blogPosts].sort(
+    (a, b) =>
+      (b.publishedAt ?? b.updatedAt ?? "").localeCompare(
+        a.publishedAt ?? a.updatedAt ?? "",
+      ),
+  );
   const schema = {
     "@context": "https://schema.org",
     "@graph": [

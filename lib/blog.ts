@@ -10,6 +10,7 @@ import igpercentage from "@/public/assets/ignou-percentage_11zon.webp";
 import openUniversitiesKolkataImage from "@/public/assets/open-universities-kolkata_11zon.webp";
 import submitIgnouAssignmentImage from "@/public/assets/submit-ignou-assignment_11zon.webp";
 import aktuOddSemesterImage from "@/public/assets/aktu-odd-semester-admit-card_11zon.webp";
+import BabasahebImage from "@/public/assets/ambedkar.webp";
 
 export const BLOG_SITE_URL = "https://distanceeducationlearning.com";
 export const BLOG_UPDATED_AT = "2026-10-14";
@@ -500,6 +501,10 @@ export const blogPosts: BlogPost[] = [
     category: "Admissions",
     bannerTitle: "BAOU Courses & Admissions",
     gradient: "from-[#1e3a8a] to-[#0e7490]",
+     image: {
+      src: BabasahebImage.src,
+      alt: "Dr. Babasaheb Ambedkar Open University courses and admissions guide",
+    },
     quickAnswer:
       "BAOU offers programmes across different academic levels, subject to current availability. Course eligibility, fees, learning mode and admission steps vary by programme, so check the latest BAOU prospectus and official admission notice before applying.",
     source: {
