@@ -10,7 +10,7 @@ export default function BlogBanner({
 }) {
   return (
     <div
-      className={`relative flex ${post.image ? "aspect-video" : "aspect-[1200/630]"} items-end overflow-hidden bg-gradient-to-br ${post.gradient} ${featured ? "rounded-xl" : ""}`}>
+      className={`relative flex ${post.image ? "aspect-video" : "aspect-[1200/630]"} items-end overflow-hidden bg-[linear-gradient(135deg,#1e3a8a,#2563eb_60%,#0ea5e9)] ${featured ? "rounded-xl" : ""}`}>
       {post.image ? (
         <Image
           src={post.image.src}
