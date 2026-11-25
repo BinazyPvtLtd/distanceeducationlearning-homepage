@@ -10,7 +10,7 @@ export default function BlogBanner({
 }) {
   return (
     <div
-      className={`relative flex ${post.image ? "aspect-video" : "aspect-[1200/630]"} items-end overflow-hidden bg-[linear-gradient(135deg,#1e3a8a,#2563eb_60%,#0ea5e9)] ${featured ? "rounded-xl" : ""}`}>
+      className={`relative flex ${post.image ? "aspect-video bg-white" : "aspect-[1200/630] bg-[linear-gradient(135deg,#1e3a8a,#2563eb_60%,#0ea5e9)]"} items-end overflow-hidden ${featured ? "rounded-xl" : ""}`}>
       {post.image ? (
         <Image
           src={post.image.src}
@@ -22,7 +22,7 @@ export default function BlogBanner({
               : "(max-width: 600px) 100vw, (max-width: 900px) 50vw, 360px"
           }
           preload={featured || undefined}
-          className="object-contain"
+          className="object-cover"
         />
       ) : (
         <>
