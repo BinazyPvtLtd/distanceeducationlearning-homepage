@@ -21,7 +21,7 @@ export default function BlogBanner({
               ? "(max-width: 900px) 100vw, 740px"
               : "(max-width: 600px) 100vw, (max-width: 900px) 50vw, 360px"
           }
-          preload={featured}
+          preload={featured || undefined}
           className="object-contain"
         />
       ) : (
